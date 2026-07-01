@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="APR">
+    <Package name="AttachFlag">
+        <Key ID="STR_APR_AttachFlag_displayName">
+            <English>Attach flag</English>
+            <Japanese>旗を取り付ける</Japanese>
+            <Original>Attach flag</Original>
+        </Key>
+    </Package>
+</Project>
