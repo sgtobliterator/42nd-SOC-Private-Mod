@@ -1,0 +1,16 @@
+ambient[]={0,0,0,1};
+diffuse[]={0,0,0,1};
+forcedDiffuse[]={0,0,0,1};
+emmisive[]={30,30,30,1};
+specular[]={0,0,0,1};
+specularPower=8;
+PixelShaderID="Collimator";
+VertexShaderID="Basic";
+RenderFlags[]=
+{
+	"NoZwrite"
+};
+class Stage0
+{
+	uvSource="texCollimator";
+};

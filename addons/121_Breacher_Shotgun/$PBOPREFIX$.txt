@@ -1,0 +1,4 @@
+//<'121_Breacher_Shotgun.pbo' properties via Mikero's dos tools, dll version 8.90>
+prefix=121_Breacher_Shotgun;
+//PboType=Arma Addon;
+//</properties>

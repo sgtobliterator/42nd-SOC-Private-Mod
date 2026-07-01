@@ -1,0 +1,5857 @@
+class CfgPatches
+{
+	class 121_75th_uniform
+	{
+		units[]={};
+		weapons[]={};
+		requiredVersion=0.1;
+		requiredAddons[]=
+		{
+			"A3_Characters_F_BLUFOR"
+		};
+	};
+};
+/*class CfgVehicles
+{
+	class B_Soldier_base_F;
+	class rhsusf_army_acu_uniform;
+	class 75th_ranger_rugby_1: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Training Rugby Shirt";
+		model="121_75th_Uniform\ranger_rugby1.p3d";
+	};
+	class visco_pcu1: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Training Combat Jacket";
+		model="121_75th_Uniform\ranger_pcu.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\pcu\pcu_beyond_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_US_co.paa"
+		};
+	};
+	class visco_pcu2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Training Combat Jacket";
+		model="121_75th_Uniform\ranger_pcu.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\pcu\pcu_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_US_co.paa"
+		};
+	};
+	class ranger_acu1: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_acu1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat"
+		};
+	};
+	class ranger_acu2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_acu2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat"
+		};
+	};
+	class ranger_acu3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_acu1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat"
+		};
+	};
+	class ranger_acu4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_acu2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat"
+		};
+	};
+	class ranger_acu1_tab: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_acu1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat"
+		};
+	};
+	class ranger_acu2_tab: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_acu2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat"
+		};
+	};
+	class ranger_acu3_tab: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_acu1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat"
+		};
+	};
+	class ranger_acu4_tab: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_acu2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat"
+		};
+	};
+	class visco_patagonia_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_g2_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_g2_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_g2_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_g2_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_eod_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_eod_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_eod_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_eod_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_eod_g2_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_eod_g2_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_eod_g2_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_eod_g2_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_med_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_med_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_med_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_med_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_med_g2_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_med_g2_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_med_g2_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_med_g2_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_rto_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_rto_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_rto_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_rto_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_rto_g2_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_rto_g2_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_rto_g2_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_rto_g2_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_jtac_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_jtac_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_jtac_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_jtac_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_jtac_g2_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_jtac_g2_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_jtac_g2_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_jtac_g2_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata4.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_g2_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_g2_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_g2_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_g2_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_eod_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_eod_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_eod_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_eod_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_eod_g2_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_eod_g2_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_eod_g2_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_eod_g2_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_EOD_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_med_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_med_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_med_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_med_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_med_g2_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_med_g2_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_med_g2_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_med_g2_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_MED_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_rto_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_rto_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_rto_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_rto_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_rto_g2_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_rto_g2_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_rto_g2_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_rto_g2_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_RTO_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_jtac_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_jtac_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_jtac_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_jtac_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata1.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g3_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_jtac_g2_mc: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L92.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_jtac_g2_mc_2: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\patagonia_L9.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_pata.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_jtac_g2_mc_3: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g3.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g3.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_patagonia_r_jtac_g2_mc_4: B_Soldier_base_F
+	{
+		scope=1;
+		dlc="";
+		modelSides[]={0,1,2,3};
+		displayName="[75th Ranger] Combat Uniform";
+		model="121_75th_Uniform\ranger_pata2.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo1",
+			"Camo2",
+			"leftflag",
+			"rightflag"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\G3s\mw_g2_mc.paa",
+			"121_75th_Uniform\Data\patagonia\crye_g2.paa",
+			"121_75th_Uniform\Data\Cuffs\cuffs_mc_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_JTAC_co.paa",
+			"121_75th_Uniform\Data\accessories\IR_right_US_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\G3s\pants_g2.rvmat",
+			"\121_75th_Uniform\Data\Patagonia\shirt_g2.rvmat",
+			"\121_75th_Uniform\Data\cuffs\cuffs.rvmat",
+			"\121_75th_Uniform\Data\accessories\IR_ReflectCallsign.rvmat",
+			"\121_75th_Uniform\Data\accessories\ir_reflect.rvmat"
+		};
+	};
+	class visco_briefing_mc: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [PVT]";
+		uniformClass="ranger_briefing_mc";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"#(argb,8,8,3)color(0,0,0,0)",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [PVT] [Tab]";
+		uniformClass="ranger_briefing_mc_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"#(argb,8,8,3)color(0,0,0,0)",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_pv2: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [PV2]";
+		uniformClass="ranger_briefing_mc_pv2";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\pv2_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_pv2_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [PV2] [Tab]";
+		uniformClass="ranger_briefing_mc_pv2_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\pv2_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_pfc: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [PFC]";
+		uniformClass="ranger_briefing_mc_pfc";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\pfc_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_pfc_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [PFC] [Tab]";
+		uniformClass="ranger_briefing_mc_pfc_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\pfc_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_spc: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [SPC]";
+		uniformClass="ranger_briefing_mc_spc";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\spc_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_spc_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [SPC] [Tab]";
+		uniformClass="ranger_briefing_mc_spc_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\spc_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_cpl: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [CPL]";
+		uniformClass="ranger_briefing_mc_cpl";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\cpl_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_cpl_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [CPL] [Tab]";
+		uniformClass="ranger_briefing_mc_cpl_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\cpl_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_sgt: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [SGT]";
+		uniformClass="ranger_briefing_mc_sgt";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\sgt_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_sgt_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [SGT] [Tab]";
+		uniformClass="ranger_briefing_mc_sgt_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\sgt_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_ssg: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [SSG]";
+		uniformClass="ranger_briefing_mc_ssg";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\ssg_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_ssg_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [SSG] [Tab]";
+		uniformClass="ranger_briefing_mc_ssg_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\ssg_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_sfc: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [SFC]";
+		uniformClass="ranger_briefing_mc_sfc";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\sfc_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_sfc_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [SFC] [Tab]";
+		uniformClass="ranger_briefing_mc_sfc_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\sfc_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_msg: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [MSG]";
+		uniformClass="ranger_briefing_mc_msg";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\msg_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_msg_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [MSG] [Tab]";
+		uniformClass="ranger_briefing_mc_msg_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\msg_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_1sg: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [1SG]";
+		uniformClass="ranger_briefing_mc_1sg";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\1sg_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_1sg_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [1SG] [Tab]";
+		uniformClass="ranger_briefing_mc_1sg_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\1sg_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_sgm: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [SGM]";
+		uniformClass="ranger_briefing_mc_sgm";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\sgm_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_sgm_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [SGM] [Tab]";
+		uniformClass="ranger_briefing_mc_sgm_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\sgm_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_csm: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [CSM]";
+		uniformClass="ranger_briefing_mc_csm";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\csm_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_csm_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [CSM] [Tab]";
+		uniformClass="ranger_briefing_mc_csm_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\csm_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_wo1: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [WO1]";
+		uniformClass="ranger_briefing_mc_wo1";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\wo1_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_wo1_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [WO1] [Tab]";
+		uniformClass="ranger_briefing_mc_wo1_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\wo1_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_cw2: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [CW2]";
+		uniformClass="ranger_briefing_mc_cw2";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\cw2_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_cw2_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [CW2] [Tab]";
+		uniformClass="ranger_briefing_mc_cw2_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\cw2_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_cw3: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [CW3]";
+		uniformClass="ranger_briefing_mc_cw3";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\cw3_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_cw3_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [CW3] [Tab]";
+		uniformClass="ranger_briefing_mc_cw3_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\cw3_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_cw4: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [CW4]";
+		uniformClass="ranger_briefing_mc_cw4";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\cw4_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_cw4_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [CW4] [Tab]";
+		uniformClass="ranger_briefing_mc_cw4_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\cw4_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_cw5: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [CW5]";
+		uniformClass="ranger_briefing_mc_cw5";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\cw5_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_cw5_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [CW5] [Tab]";
+		uniformClass="ranger_briefing_mc_cw5_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\cw5_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_1lt: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [1LT]";
+		uniformClass="ranger_briefing_mc_1lt";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\1lt_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_1lt_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [1LT] [Tab]";
+		uniformClass="ranger_briefing_mc_1lt_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\1lt_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_2lt: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [2LT]";
+		uniformClass="ranger_briefing_mc_2lt";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\2lt_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_2lt_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [2LT] [Tab]";
+		uniformClass="ranger_briefing_mc_2lt_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\2lt_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_cpt: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [CPT]";
+		uniformClass="ranger_briefing_mc_cpt";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\cpt_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_cpt_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [CPT] [Tab]";
+		uniformClass="ranger_briefing_mc_cpt_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\cpt_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_maj: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [MAJ]";
+		uniformClass="ranger_briefing_mc_maj";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\maj_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_maj_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [MAJ] [Tab]";
+		uniformClass="ranger_briefing_mc_maj_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\maj_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_ltc: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [LTC]";
+		uniformClass="ranger_briefing_mc_ltc";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\ltc_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_ltc_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [LTC] [Tab]";
+		uniformClass="ranger_briefing_mc_ltc_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\ltc_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_col: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [COL]";
+		uniformClass="ranger_briefing_mc_ltc";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\col_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\121_75th_Uniform\Data\acu\patagonia_field_top.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+	class visco_briefing_mc_col_tab: rhsusf_army_acu_uniform
+	{
+		scope=1;
+		author="Visco";
+		displayName="[75th Ranger] Briefing Uniform [COL] [Tab]";
+		uniformClass="ranger_briefing_mc_ltc_tab";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_02_oefcp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_03_ucp_co.paa",
+			"121_75th_Uniform\Data\BriefingUniform\RankPatch\col_ca.paa",
+			"121_75th_Uniform\Data\BriefingUniform\rhsusf_uniform_acu_acc1_co.paa",
+			""
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"121_75th_Uniform\Data\acu\patagonia_field_top_tab.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_02.rvmat",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_03.rvmat",
+			"",
+			"rhsusf\addons\rhsusf_infantry2\acu\data\rhsusf_uniform_acu_acc.rvmat",
+			""
+		};
+	};
+};
+class cfgWeapons
+{
+	class Uniform_Base;
+	class UniformItem;
+	class ItemCore;
+	class ranger_rugby_1: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Training Rugby Shirt";
+		picture="\121_75th_Uniform\121_ranger_rugby_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="75th_ranger_rugby_1";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_pcu1: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Cold Weather Jacket";
+		picture="\121_75th_Uniform\121_ranger_pcu_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_pcu1";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_pcu2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Cold Weather Jacket";
+		picture="\121_75th_Uniform\121_ranger_pcu1_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_pcu2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_acu1_item: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_acu1_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ranger_acu1";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_acu2_item: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_acu2_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ranger_acu2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_acu3_item: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_acu1_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ranger_acu3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_acu4_item: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_acu2_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ranger_acu4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_acu1_tab_item: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_acu1_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ranger_acu1_tab";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_acu2_tab_item: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_acu2_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ranger_acu2_tab";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_acu3_tab_item: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_acu1_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ranger_acu3_tab";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_acu4_tab_item: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_acu2_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ranger_acu4_tab";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_g2_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_g2_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_g2_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_g2_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_g2_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_g2_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_g2_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_g2_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_eod_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_eod_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_eod_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_eod_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_eod_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_eod_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_eod_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_eod_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_eod_g2_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_eod_g2_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_eod_g2_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_eod_g2_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_eod_g2_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_eod_g2_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_eod_g2_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_eod_g2_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_med_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_med_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_med_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_med_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_med_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_med_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_med_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_med_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_med_g2_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_med_g2_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_med_g2_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_med_g2_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_med_g2_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_med_g2_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_med_g2_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_med_g2_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_rto_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_rto_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_rto_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_rto_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_rto_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_rto_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_rto_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_rto_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_rto_g2_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_rto_g2_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_rto_g2_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_rto_g2_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_rto_g2_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_rto_g2_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_rto_g2_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_rto_g2_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_jtac_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_jtac_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_jtac_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_jtac_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_jtac_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_jtac_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_jtac_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_jtac_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_jtac_g2_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_jtac_g2_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_jtac_g2_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_jtac_g2_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_jtac_g2_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_jtac_g2_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_jtac_g2_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_jtac_g2_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_g2_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_g2_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_g2_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_g2_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_g2_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_g2_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_g2_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_g2_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_eod_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_eod_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_eod_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_eod_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_eod_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_eod_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_eod_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_eod_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_eod_g2_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_eod_g2_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_eod_g2_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_eod_g2_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_eod_g2_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_eod_g2_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_eod_g2_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_eod_g2_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_med_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_med_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_med_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_med_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_med_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_med_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_med_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_med_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_med_g2_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_med_g2_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_med_g2_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_med_g2_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_med_g2_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_med_g2_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_med_g2_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_med_g2_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_rto_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_rto_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_rto_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_rto_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_rto_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_rto_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_rto_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_rto_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_rto_g2_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_rto_g2_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_rto_g2_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_rto_g2_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_rto_g2_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_rto_g2_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_rto_g2_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_rto_g2_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_jtac_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_jtac_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_jtac_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_jtac_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_jtac_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_jtac_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_jtac_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_jtac_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_jtac_g2_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_jtac_g2_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_jtac_g2_mc_2: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_jtac_g2_mc_2";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_jtac_g2_mc_3: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_jtac_g2_mc_3";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_patagonia_r_jtac_g2_mc_4: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Combat Uniform";
+		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_patagonia_r_jtac_g2_mc_4";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_briefing_mc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Briefing Uniform [PVT]";
+		picture="\121_75th_Uniform\121_ranger_bdu_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		descriptionShort="Battle Dress Uniform";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_briefing_mc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_briefing_mc_1lt: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Briefing Uniform [1LT]";
+		picture="\121_75th_Uniform\121_ranger_bdu_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		descriptionShort="Battle Dress Uniform";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_briefing_mc_1lt";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_briefing_mc_2lt: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Briefing Uniform [2LT]";
+		picture="\121_75th_Uniform\121_ranger_bdu_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		descriptionShort="Battle Dress Uniform";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_briefing_mc_2lt";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_briefing_mc_cpt: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Briefing Uniform [CPT]";
+		picture="\121_75th_Uniform\121_ranger_bdu_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		descriptionShort="Battle Dress Uniform";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_briefing_mc_cpt";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_briefing_mc_maj: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Briefing Uniform [MAJ]";
+		picture="\121_75th_Uniform\121_ranger_bdu_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		descriptionShort="Battle Dress Uniform";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_briefing_mc_maj";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_briefing_mc_ltc: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Briefing Uniform [LTC]";
+		picture="\121_75th_Uniform\121_ranger_bdu_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		descriptionShort="Battle Dress Uniform";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_briefing_mc_ltc";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class ranger_briefing_mc_col: Uniform_Base
+	{
+		author="Visco";
+		scope=2;
+		displayName="[75th Ranger] Briefing Uniform [COL]";
+		picture="\121_75th_Uniform\121_ranger_bdu_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		descriptionShort="Battle Dress Uniform";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="visco_briefing_mc_col";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+};*/
