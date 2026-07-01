@@ -1,0 +1,771 @@
+class CfgPatches
+{
+	class TFL_rugby
+	{
+		magazines[]={};
+		ammo[]={};
+		units[]={};
+		weapons[]={};
+		requiredVersion=0.1;
+		requiredAddons[]=
+		{
+			"A3_Data_F",
+			"A3_Weapons_F",
+			"A3_Characters_F",
+			"A3_Characters_F_BLUFOR",
+			"Extended_EventHandlers"
+		};
+	};
+};
+class CfgVehicles
+{
+	class B_Soldier_F;
+	class B_diver_F;
+	class tfl_rugby_mc: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_mc";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_mc.paa",
+			"tfl_g3\data\rugby2.paa",
+			"TFL_g3\g3\Pants_mc.paa",
+			"TFL_g3\g3\Pants_mc.paa"
+		};
+	};
+	class tfl_rugby_mc_np: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_mc";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_mc.paa",
+			"tfl_g3\data\rugby2.paa",
+			"",
+			""
+		};
+	};
+	class tfl_rugby_mc_g: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby_g.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_mc_g";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_mc.paa",
+			"tfl_g3\data\rugby2.paa",
+			"TFL_g3\g3\Pants_mc.paa",
+			"TFL_g3\g3\Pants_mc.paa"
+		};
+	};
+	class tfl_rugby_mc_np_g: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby_g.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_mc_g";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_mc.paa",
+			"tfl_g3\data\rugby2.paa",
+			"",
+			""
+		};
+	};
+	class tfl_rugby_mc_mcrugby: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_mc_mcrugby";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_mc.paa",
+			"tfl_g3\data\rugby_mc.paa",
+			"TFL_g3\g3\Pants_mc.paa",
+			"TFL_g3\g3\Pants_mc.paa"
+		};
+	};
+	class tfl_rugby_mc_np_mcrugby: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_mc_mcrugby";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_mc.paa",
+			"tfl_g3\data\rugby_mc.paa",
+			"",
+			""
+		};
+	};
+	class tfl_rugby_mc_g_mcrugby: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby_g.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_mc_g_mcrugby";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_mc.paa",
+			"tfl_g3\data\rugby_mc.paa",
+			"TFL_g3\g3\Pants_mc.paa",
+			"TFL_g3\g3\Pants_mc.paa"
+		};
+	};
+	class tfl_rugby_mc_np_g_mcrugby: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby_g.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_mc_g_mcrugby";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_mc.paa",
+			"tfl_g3\data\rugby_mc.paa",
+			"",
+			""
+		};
+	};
+	class tfl_rugby_aor1: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_aor1";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_AOR1.paa",
+			"tfl_g3\data\rugby2.paa",
+			"TFL_g3\g3\Pants_AOR1.paa",
+			"TFL_g3\g3\Pants_AOR1.paa"
+		};
+	};
+	class tfl_rugby_aor1_np: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_aor1";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_AOR1.paa",
+			"tfl_g3\data\rugby2.paa",
+			"",
+			""
+		};
+	};
+	class tfl_rugby_aor1_g: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby_g.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_aor1_g";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_AOR1.paa",
+			"tfl_g3\data\rugby2.paa",
+			"TFL_g3\g3\Pants_AOR1.paa",
+			"TFL_g3\g3\Pants_AOR1.paa"
+		};
+	};
+	class tfl_rugby_aor1_np_g: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby_g.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_aor1_g";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_AOR1.paa",
+			"tfl_g3\data\rugby2.paa",
+			"",
+			""
+		};
+	};
+	class tfl_rugby_cb: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_cb";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_cb.paa",
+			"tfl_g3\data\rugby2.paa",
+			"TFL_g3\g3\Pants_cb.paa",
+			"TFL_g3\g3\Pants_cb.paa"
+		};
+	};
+	class tfl_rugby_cb_np: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_cb";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_cb.paa",
+			"tfl_g3\data\rugby2.paa",
+			"",
+			""
+		};
+	};
+	class tfl_rugby_cb_g: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby_g.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_cb_g";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_cb.paa",
+			"tfl_g3\data\rugby2.paa",
+			"TFL_g3\g3\Pants_cb.paa",
+			"TFL_g3\g3\Pants_cb.paa"
+		};
+	};
+	class tfl_rugby_cb_np_g: B_Soldier_F
+	{
+		scope=2;
+		camouflage=0;
+		displayName="Rangers";
+		scopeArsenal=2;
+		author="TFL";
+		model="tfl_rugby\tfl_g3_rugby_g.p3d";
+		_generalMacro="tfl_test";
+		uniforMClass="tfl_rugby_cb_g";
+		identityTypes[]=
+		{
+			"G_NATO_diver"
+		};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"leftknee",
+			"rightknee"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"TFL_g3\g3\Pants_cb.paa",
+			"tfl_g3\data\rugby2.paa",
+			"",
+			""
+		};
+	};
+};
+class CfgWeapons
+{
+	class ItemCore;
+	class UniformItem;
+	class Uniform_Base;
+	class tfl_rugby_mc_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (MC)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_mc";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+	class tfl_rugby_mc_np_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (MC/NP)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_mc_np";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+	class tfl_rugby_mc_g_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (MC/G)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_mc_g";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+	class tfl_rugby_mc_np_g_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (MC/NP/G)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_mc_np_g";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+	class tfl_rugby_mc_mcrugby_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (MC-MC)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_mc_mcrugby";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+	class tfl_rugby_mc_np_mcrugby_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (MC-MC/NP)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_mc_np_mcrugby";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+	class tfl_rugby_mc_g_mcrugby_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (MC-MC/G)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_mc_g_mcrugby";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+	class tfl_rugby_mc_np_g_mcrugby_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (MC-MC/NP/G)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_mc_np_g_mcrugby";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+	class tfl_rugby_aor1_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (AOR1)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_aor1";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+	class tfl_rugby_aor1_np_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (AOR1/NP)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_aor1_np";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+	class tfl_rugby_aor1_g_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (AOR1/G)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_aor1_g";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+	class tfl_rugby_aor1_np_g_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (AOR1/NP/G)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_aor1_np_g";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+	class tfl_rugby_cb_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (CB)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_cb";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+	class tfl_rugby_cb_np_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (CB/NP)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_cb_np";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+	class tfl_rugby_cb_g_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (CB/G)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_cb_g";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+	class tfl_rugby_cb_np_g_uni: Uniform_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="TFL";
+		displayName="[TFL] G3 Rugby (CB/NP/G)";
+		picture="";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniforMClass="tfl_rugby_cb_np_g";
+			containerClass="Supply100";
+			mass=5;
+			uniformType="Neopren";
+		};
+	};
+};
+class cfgMods
+{
+	author="Nidonreb";
+	timepacked="1631995709";
+};
