@@ -1,0 +1,1678 @@
+class CfgPatches
+{
+	class CIUSMC_facewear
+	{
+		units[]={};
+		weapons[]={};
+		requiredVersion=0.1;
+		requiredAddons[]={};
+	};
+};
+class cfgGlasses
+{
+	class None;
+	class CIUSMC_AVON_PAPR_CLEAR: None
+	{
+		displayname="[USMC] M53A1 Gas Mask [PAPR]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\PAPR.paa";
+		model="26th_USMC_facewear\USMC_AVON.p3d";
+		ACE_Overlay="a3\ui_f_enoch\data\objects\data\optics_apr_ca.paa";
+		ACE_OverlayCracked="";
+		ACE_Overlay_Angle=180;
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=5;
+		identityTypes[]={};
+		hiddenSelections[]=
+		{
+			"_ctc",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"",
+			"26th_USMC_facewear\data\glass_clear_ca.paa"
+		};
+		class XtdGearInfo
+		{
+			model="CIUSMC_AVON";
+			filter="papr";
+			Lens="Clear";
+		};
+	};
+	class CIUSMC_AVON_CTC_CLEAR: CIUSMC_AVON_PAPR_CLEAR
+	{
+		displayname="[USMC] M53A1 Gas Mask [CTC]";
+		picture="\26th_USMC_facewear\UI\CTC.paa";
+		hiddenSelections[]=
+		{
+			"_papr",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"",
+			"26th_USMC_facewear\data\glass_clear_ca.paa"
+		};
+		class XtdGearInfo
+		{
+			model="CIUSMC_AVON";
+			filter="ctc";
+			Lens="Clear";
+		};
+	};
+	class CIUSMC_AVON_PAPR_BLACK: None
+	{
+		displayname="[USMC] M53A1 Gas Mask [PAPR]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\PAPR.paa";
+		model="26th_USMC_facewear\USMC_AVON.p3d";
+		ACE_Overlay="a3\ui_f_enoch\data\objects\data\optics_apr_ca.paa";
+		ACE_OverlayCracked="";
+		ACE_Overlay_Angle=180;
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=5;
+		identityTypes[]={};
+		hiddenSelections[]=
+		{
+			"_ctc",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"",
+			"26th_USMC_facewear\data\glass_BLACK_ca.paa"
+		};
+		class XtdGearInfo
+		{
+			model="CIUSMC_AVON";
+			filter="papr";
+			Lens="BLACK";
+		};
+	};
+	class CIUSMC_AVON_CTC_BLACK: CIUSMC_AVON_PAPR_BLACK
+	{
+		displayname="[USMC] M53A1 Gas Mask [CTC]";
+		picture="\26th_USMC_facewear\UI\CTC.paa";
+		hiddenSelections[]=
+		{
+			"_papr",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"",
+			"26th_USMC_facewear\data\glass_BLACK_ca.paa"
+		};
+		class XtdGearInfo
+		{
+			model="CIUSMC_AVON";
+			filter="ctc";
+			Lens="BLACK";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_CLEAR: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic [BLACK, Clear]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Clear.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_clear_ca.paa",
+			"",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="clear";
+			frame="BLACK";
+			cover="Off";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_CLEAR_CAMO: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint [BLACK, Clear]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Clear.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_clear_ca.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="clear";
+			frame="BLACK";
+			cover="Off";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_CLEAR_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Cover [BLACK, Clear]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Clear_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_clear_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="clear";
+			frame="BLACK";
+			cover="On";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_CLEAR_CAMO_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint + Cover [BLACK, Clear]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Clear_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_clear_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa"
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="clear";
+			frame="BLACK";
+			cover="On";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_SHADED: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic [BLACK, Shaded]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Shade.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_BLACK_ca.paa",
+			"",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="shade";
+			frame="BLACK";
+			cover="Off";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_SHADED_CAMO: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint [BLACK, Shaded]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Shade.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_BLACK_ca.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="shade";
+			frame="BLACK";
+			cover="Off";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_SHADED_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Cover [BLACK, Shaded]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Shade_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_BLACK_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="shade";
+			frame="BLACK";
+			cover="On";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_SHADED_CAMO_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint + Cover [BLACK, Shaded]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Shade_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_BLACK_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa"
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="shade";
+			frame="BLACK";
+			cover="On";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_RED: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic [BLACK, Red]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Red.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_Red_ca.paa",
+			"",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Red";
+			frame="BLACK";
+			cover="Off";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_RED_CAMO: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint [BLACK, Red]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Red.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_Red_ca.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Red";
+			frame="BLACK";
+			cover="Off";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_RED_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Cover [BLACK, Red]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Red_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_Red_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Red";
+			frame="BLACK";
+			cover="On";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_RED_CAMO_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint + Cover [BLACK, Red]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Red_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_Red_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa"
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Red";
+			frame="BLACK";
+			cover="On";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_PURPLE: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic [BLACK, Purple]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Purple.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_Purple_ca.paa",
+			"",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Purple";
+			frame="BLACK";
+			cover="Off";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_PURPLE_CAMO: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint [BLACK, Purple]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Purple.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_Purple_ca.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Purple";
+			frame="BLACK";
+			cover="Off";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_PURPLE_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Cover [BLACK, Purple]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Purple_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_Purple_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Purple";
+			frame="BLACK";
+			cover="On";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_PURPLE_CAMO_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint + Cover [BLACK, Purple]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Purple_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_Purple_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa"
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Purple";
+			frame="BLACK";
+			cover="On";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_YELLOW: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic [BLACK, Yellow]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Yellow.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_yellow_ca.paa",
+			"",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Yellow";
+			frame="BLACK";
+			cover="Off";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_YELLOW_CAMO: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint [BLACK, Yellow]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Yellow.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_yellow_ca.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Yellow";
+			frame="BLACK";
+			cover="Off";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_YELLOW_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Cover [BLACK, Yellow]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Yellow_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_yellow_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Yellow";
+			frame="BLACK";
+			cover="On";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_BLACK_YELLOW_CAMO_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint + Cover [BLACK, Yellow]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Black_Yellow_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_BLACK_co.paa",
+			"26th_USMC_facewear\data\glass_yellow_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa"
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Yellow";
+			frame="BLACK";
+			cover="On";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_CLEAR: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic [TAN, Clear]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Clear.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_clear_ca.paa",
+			"",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="clear";
+			frame="TAN";
+			cover="Off";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_CLEAR_CAMO: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint [TAN, Clear]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Clear.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_clear_ca.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="clear";
+			frame="TAN";
+			cover="Off";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_CLEAR_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Cover [TAN, Clear]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Clear_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_clear_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="clear";
+			frame="TAN";
+			cover="On";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_CLEAR_CAMO_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint + Cover [TAN, Clear]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Clear_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_clear_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa"
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="clear";
+			frame="TAN";
+			cover="On";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_SHADED: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic [TAN, Shaded]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Shade.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_BLACK_ca.paa",
+			"",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="shade";
+			frame="TAN";
+			cover="Off";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_SHADED_CAMO: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint [TAN, Shaded]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Shade.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_BLACK_ca.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="shade";
+			frame="TAN";
+			cover="Off";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_SHADED_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Cover [TAN, Shaded]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Shade_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_BLACK_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="shade";
+			frame="TAN";
+			cover="On";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_SHADED_CAMO_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint + Cover [TAN, Shaded]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Shade_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_BLACK_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa"
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="shade";
+			frame="TAN";
+			cover="On";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_RED: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic [TAN, Red]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Red.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_Red_ca.paa",
+			"",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Red";
+			frame="TAN";
+			cover="Off";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_RED_CAMO: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint [TAN, Red]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Red.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_Red_ca.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Red";
+			frame="TAN";
+			cover="Off";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_RED_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Cover [TAN, Red]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Red_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_Red_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Red";
+			frame="TAN";
+			cover="On";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_RED_CAMO_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint + Cover [TAN, Red]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Red_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_Red_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa"
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Red";
+			frame="TAN";
+			cover="On";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_PURPLE: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic [TAN, Purple]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Purple.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_Purple_ca.paa",
+			"",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Purple";
+			frame="TAN";
+			cover="Off";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_PURPLE_CAMO: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint [TAN, Purple]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Purple.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_Purple_ca.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Purple";
+			frame="TAN";
+			cover="Off";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_PURPLE_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Cover [TAN, Purple]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Purple_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_Purple_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Purple";
+			frame="TAN";
+			cover="On";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_PURPLE_CAMO_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint + Cover [TAN, Purple]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Purple_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_Purple_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa"
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Purple";
+			frame="TAN";
+			cover="On";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_Yellow: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic [TAN, Yellow]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Yellow.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_yellow_ca.paa",
+			"",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Yellow";
+			frame="TAN";
+			cover="Off";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_YELLOW_CAMO: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint [TAN, Yellow]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Yellow.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_yellow_ca.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Yellow";
+			frame="TAN";
+			cover="Off";
+			Paint="On";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_YELLOW_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Cover [TAN, Yellow]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Yellow_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2",
+			"Cream"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_yellow_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa",
+			""
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Yellow";
+			frame="TAN";
+			cover="On";
+			Paint="Off";
+		};
+	};
+	class CIUSMC_MFRAME_TAN_YELLOW_CAMO_COVER: None
+	{
+		displayname="[USMC] Oakley M Frame Ballistic + Face Paint + Cover [TAN, Yellow]";
+		scope=2;
+		author="Coal";
+		picture="\26th_USMC_facewear\UI\MFRAM_Tan_Yellow_Mask.paa";
+		model="26th_USMC_facewear\USMC_M_FRAME.p3d";
+		ACE_ResisTANce=2;
+		ACE_Protection=1;
+		ACE_Color[]={0,0,0};
+		ACE_TintAmount=0;
+		mass=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"26th_USMC_facewear\data\mframe_TAN_co.paa",
+			"26th_USMC_facewear\data\glass_yellow_ca.paa",
+			"26th_USMC_facewear\data\mask_2_cb_co.paa"
+		};
+		identityTypes[]={};
+		class XtdGearInfo
+		{
+			model="CIUSMC_MFRAME";
+			lens="Yellow";
+			frame="TAN";
+			cover="On";
+			Paint="On";
+		};
+	};
+};
+class XtdGearModels
+{
+	class cfgGlasses
+	{
+		class CIUSMC_MFRAME
+		{
+			label="Customize";
+			author="Coal";
+			options[]=
+			{
+				"lens",
+				"frame",
+				"cover",
+				"Paint"
+			};
+			class lens
+			{
+				label="Lens";
+				values[]=
+				{
+					"clear",
+					"shade",
+					"Red",
+					"Purple",
+					"Yellow"
+				};
+				changeingame=0;
+				class clear
+				{
+					label="Clear";
+				};
+				class shade
+				{
+					label="Shaded";
+				};
+				class Red
+				{
+					label="Red";
+				};
+				class Purple
+				{
+					label="Purple";
+				};
+				class Yellow
+				{
+					label="Yellow";
+				};
+			};
+			class frame
+			{
+				label="Frame";
+				values[]=
+				{
+					"BLACK",
+					"TAN"
+				};
+				changeingame=0;
+				class BLACK
+				{
+					label="Black";
+				};
+				class TAN
+				{
+					label="Tan";
+				};
+			};
+			class cover
+			{
+				label="Mask";
+				values[]=
+				{
+					"On",
+					"Off"
+				};
+				changeingame=1;
+				class On
+				{
+					label="On";
+				};
+				class Off
+				{
+					label="Off";
+				};
+			};
+			class Paint
+			{
+				label="Face Paint";
+				values[]=
+				{
+					"On",
+					"Off"
+				};
+				changeingame=1;
+				class On
+				{
+					label="On";
+				};
+				class Off
+				{
+					label="Off";
+				};
+			};
+		};
+		class CIUSMC_AVON
+		{
+			label="Customize";
+			author="Coal";
+			options[]=
+			{
+				"filter",
+				"Lens"
+			};
+			class filter
+			{
+				label="Filter";
+				values[]=
+				{
+					"papr",
+					"ctc"
+				};
+				changeingame=0;
+				class papr
+				{
+					label="PAPR";
+				};
+				class ctc
+				{
+					label="CTC";
+				};
+			};
+			class Lens
+			{
+				label="Lens";
+				values[]=
+				{
+					"Clear",
+					"BLACK"
+				};
+				changeingame=0;
+				class Clear
+				{
+					label="Clear";
+				};
+				class BLACK
+				{
+					label="Black";
+				};
+			};
+		};
+	};
+};
+class cfgMods
+{
+	author="Coal";
+	timepacked="1777909052";
+};

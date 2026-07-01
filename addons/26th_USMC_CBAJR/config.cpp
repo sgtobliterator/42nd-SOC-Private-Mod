@@ -1,0 +1,133 @@
+class CfgPatches
+{
+	class CIUSMC_Weapons_CBAJR
+	{
+		name="Current Issue - USMC - CBA JointRail Patch";
+		author="Apricot_ale";
+		url="https://x.com/Apricot_ale";
+		requiredVersion=2.2;
+		requiredAddons[]=
+		{
+			"A3_Data_F_Decade_Loadorder",
+			"cba_main",
+			"cba_optics",
+			"CIUSMC_Weapons"
+		};
+		units[]={};
+		weapons[]={};
+	};
+};
+class asdg_SlotInfo;
+class asdg_PistolUnderRail: asdg_SlotInfo
+{
+	class compatibleItems
+	{
+		CIUSMC_SIG_Foxtrot_2=1;
+		CIUSMC_SureFire_X300B=1;
+	};
+};
+class asdg_FrontSideRail: asdg_SlotInfo
+{
+	class compatibleItems
+	{
+		26th_CIUSMC_416_DEVICE_1_LASER=1;
+		26th_CIUSMC_416_DEVICE_1_IR_DUAL_LOW=1;
+		26th_CIUSMC_416_DEVICE_1_IR_DUAL_HIGH=1;
+		26th_CIUSMC_416_DEVICE_1_VIS_LIGHT=1;
+		26th_CIUSMC_416_DEVICE_2_LASER=1;
+		26th_CIUSMC_416_DEVICE_2_IR_DUAL_LOW=1;
+		26th_CIUSMC_416_DEVICE_2_IR_DUAL_HIGH=1;
+		26th_CIUSMC_416_DEVICE_2_VIS_LIGHT=1;
+		26th_CIUSMC_416_DEVICE_3_LASER=1;
+		26th_CIUSMC_416_DEVICE_3_IR_DUAL_LOW=1;
+		26th_CIUSMC_416_DEVICE_3_IR_DUAL_HIGH=1;
+		26th_CIUSMC_416_DEVICE_3_VIS_LIGHT=1;
+		26th_CIUSMC_M110_DEVICE_1_LASER=1;
+		26th_CIUSMC_M110_DEVICE_1_IR_DUAL_LOW=1;
+		26th_CIUSMC_M110_DEVICE_1_IR_DUAL_HIGH=1;
+		26th_CIUSMC_M110_DEVICE_1_VIS_LIGHT=1;
+		26th_CIUSMC_M110_DEVICE_2_LASER=1;
+		26th_CIUSMC_4CON_DEVICE_1_LASER=1;
+		26th_CIUSMC_4CON_DEVICE_1_IR_DUAL_LOW=1;
+		26th_CIUSMC_4CON_DEVICE_1_IR_DUAL_HIGH=1;
+		26th_CIUSMC_4CON_DEVICE_1_VIS_LIGHT=1;
+		26th_CIUSMC_4CON_DEVICE_2_LASER=1;
+		26th_CIUSMC_4CON_DEVICE_2_IR_DUAL_LOW=1;
+		26th_CIUSMC_4CON_DEVICE_2_IR_DUAL_HIGH=1;
+		26th_CIUSMC_4CON_DEVICE_2_VIS_LIGHT=1;
+		26th_CIUSMC_4CON_DEVICE_3_LASER=1;
+		26th_CIUSMC_4CON_DEVICE_3_IR_DUAL_LOW=1;
+		26th_CIUSMC_4CON_DEVICE_3_IR_DUAL_HIGH=1;
+		26th_CIUSMC_4CON_DEVICE_3_VIS_LIGHT=1;
+		26th_CIUSMC_4CON_DEVICE_4_LASER=1;
+		26th_CIUSMC_4CON_DEVICE_4_IR_DUAL_LOW=1;
+		26th_CIUSMC_4CON_DEVICE_4_IR_DUAL_HIGH=1;
+		26th_CIUSMC_4CON_DEVICE_4_VIS_LIGHT=1;
+		26th_CIUSMC_4CON_DEVICE_5_LASER=1;
+		26th_CIUSMC_4CON_DEVICE_5_IR_DUAL_LOW=1;
+		26th_CIUSMC_4CON_DEVICE_5_IR_DUAL_HIGH=1;
+		26th_CIUSMC_4CON_DEVICE_5_VIS_LIGHT=1;
+		26th_CIUSMC_4CON_DEVICE_6_LASER=1;
+		26th_CIUSMC_4CON_DEVICE_6_IR_DUAL_LOW=1;
+		26th_CIUSMC_4CON_DEVICE_6_IR_DUAL_HIGH=1;
+		26th_CIUSMC_4CON_DEVICE_6_VIS_LIGHT=1;
+		26th_CIUSMC_M240L_DEVICE_1_LASER=1;
+		26th_CIUSMC_M240L_DEVICE_1_IR_DUAL_LOW=1;
+		26th_CIUSMC_M240L_DEVICE_1_IR_DUAL_HIGH=1;
+		26th_CIUSMC_M240L_DEVICE_1_VIS_LIGHT=1;
+		26th_CIUSMC_M38_DEVICE_1_LASER=1;
+		26th_CIUSMC_M38_DEVICE_1_IR_DUAL_LOW=1;
+		26th_CIUSMC_M38_DEVICE_1_IR_DUAL_HIGH=1;
+		26th_CIUSMC_M38_DEVICE_1_VIS_LIGHT=1;
+	};
+};
+class asdg_OpticRail: asdg_SlotInfo
+{
+};
+class asdg_OpticRail1913: asdg_OpticRail
+{
+	class compatibleItems
+	{
+		CIUSMC_EXPS=1;
+		CIUSMC_G33_EXPS_DOWN=1;
+		CIUSMC_G33_EXPS_UP=1;
+		CIUSMC_Leupold_MK4=1;
+		CIUSMC_Leupold_MK4_CNVDT=1;
+		CIUSMC_optic_VCOG=1;
+		CIUSMC_SU230B=1;
+		CIUSMC_Optic_TS30A2=1;
+		CIUSMC_Optic_TS30A2_CNVDT=1;
+	};
+};
+class asdg_MuzzleSlot: asdg_SlotInfo
+{
+};
+class asdg_MuzzleSlot_762: asdg_MuzzleSlot
+{
+	class compatibleItems
+	{
+		26th_CIUSMC_M110_SUPPRESSOR=1;
+	};
+};
+class asdg_MuzzleSlot_556: asdg_MuzzleSlot
+{
+	class compatibleItems
+	{
+		26th_CIUSMC_SOCOM_RC2_BLK=1;
+		26th_CIUSMC_SOCOM_RC2_TAN=1;
+		26th_CIUSMC_RC_WRAPPED_MC=1;
+		26th_CIUSMC_RC_WRAPPED_TAN=1;
+	};
+};
+class asdg_UnderSlot: asdg_SlotInfo
+{
+	class compatibleItems
+	{
+		CIUSMC_HARRIS=1;
+	};
+};
+class cfgMods
+{
+	author="Coal";
+	timepacked="1777648843";
+};
