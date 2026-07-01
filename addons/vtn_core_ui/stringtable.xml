@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project name="Core">
+	<Package name="Import">
+		<Container name="VTN_AUTHOR">
+			<Key ID="STR_DN_VTN">
+				<German>VTN</German>
+				<English>VTN</English>
+				<Italian>VTN</Italian>
+				<Spanish>VTN</Spanish>
+				<French>VTN</French>
+				<Czech>VTN</Czech>
+				<Russian>ВТН</Russian>
+				<Polish>VTN</Polish>
+				<Hungarian>VTN</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTNmod">
+				<German>VETERAN MOD</German>
+				<English>VETERAN MOD</English>
+				<Italian>VETERAN MOD</Italian>
+				<Spanish>VETERAN MOD</Spanish>
+				<French>VETERAN MOD</French>
+				<Czech>VETERAN MOD</Czech>
+				<Russian>ВЕТЕРАН МОД</Russian>
+				<Polish>VETERAN MOD</Polish>
+				<Hungarian>VETERAN MOD</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_OVERVIEW">
+				<German>VETERAN MOD ist ein modernes Schlachtfeld inklusive der realen Ausrüstung und Bewaffnung in der realen Umgebung.</German>
+				<English>VETERAN MOD is a total modification, that includes real gear, equipment and armaments in the realistic environment.</English>
+				<Italian>VETERAN MOD is a total modification, that includes real gear, equipment and armaments in the realistic environment.</Italian>
+				<Spanish>VETERAN MOD is a total modification, that includes real gear, equipment and armaments in the realistic environment.</Spanish>
+				<French>VETERAN MOD is a total modification, that includes real gear, equipment and armaments in the realistic environment.</French>
+				<Czech>VETERAN MOD is a total modification, that includes real gear, equipment and armaments in the realistic environment.</Czech>
+				<Russian>ВЕТЕРАН МОД это тотальная модификация, которая включает в себя реальное снаряжение, оборудование и вооружение в реалистичном окружении.</Russian>
+				<Polish>VETERAN MOD is a total modification, that includes real gear, equipment and armaments in the realistic environment.</Polish>
+				<Hungarian>VETERAN MOD is a total modification, that includes real gear, equipment and armaments in the realistic environment.</Hungarian>
+			</Key>
+		</Container>
+		<Container name="Misc">
+		<Key ID="str_usract_user_5">
+			<Original>Rock-Paper-Scissors mini-game</Original>
+			<German>Rock-Paper-Scissors mini-game</German>
+			<English>Rock-Paper-Scissors mini-game</English>
+			<Italian>Rock-Paper-Scissors mini-game</Italian>
+			<Spanish>Rock-Paper-Scissors mini-game</Spanish>
+			<French>Rock-Paper-Scissors mini-game</French>
+			<Czech>Rock-Paper-Scissors mini-game</Czech>
+			<Russian>Мини-игра Камень-Ножницы-Бумага</Russian>
+			<Polish>Rock-Paper-Scissors mini-game</Polish>
+			<Hungarian>Rock-Paper-Scissors mini-game</Hungarian>
+		</Key>
+		<Key ID="str_usract_user_15">
+			<Original>Load ammunition/Unload ammunition</Original>
+			<German>Load ammunition/Unload ammunition</German>
+			<English>Load ammunition/Unload ammunition</English>
+			<Italian>Load ammunition/Unload ammunition</Italian>
+			<Spanish>Load ammunition/Unload ammunition</Spanish>
+			<French>Load ammunition/Unload ammunition</French>
+			<Czech>Load ammunition/Unload ammunition</Czech>
+			<Russian>Погрузить боеприпасы/Вытащить боеприпасы</Russian>
+			<Polish>Load ammunition/Unload ammunition</Polish>
+			<Hungarian>Load ammunition/Unload ammunition</Hungarian>
+		</Key>
+		<Key ID="str_usract_user_20">
+			<Original>Weapon on back/Weapon control</Original>
+			<German>Weapon on back/Weapon control</German>
+			<English>Weapon on back/Weapon control</English>
+			<Italian>Weapon on back/Weapon control</Italian>
+			<Spanish>Weapon on back/Weapon control</Spanish>
+			<French>Weapon on back/Weapon control</French>
+			<Czech>Weapon on back/Weapon control</Czech>
+			<Russian>Убрать оружие/Убрать руку на приклад</Russian>
+			<Polish>Weapon on back/Weapon control</Polish>
+			<Hungarian>Weapon on back/Weapon control</Hungarian>
+		</Key>
+		</Container>
+	</Package>
+</Project>
