@@ -1,0 +1,940 @@
+{
+  "Models": [
+    {
+      "P3dModel": "SOAR_Vests\\models\\AVS_Flight_1.p3d",
+      "ClassRoot": "CfgWeapons",
+      "Name": "AVS_Flight",
+      "FirstConfigClassName": "AVS_Flight_1",
+      "Action": 0,
+      "ModelName": "AVS F",
+      "HiddenSelections": {
+        "f1_blade": {
+          "Action": 0,
+          "OptionName": "f1_blade",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            },
+            {
+              "Value": "soar_vests\\data\\haydenblade_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            }
+          ]
+        },
+        "f1_chem": {
+          "Action": 0,
+          "OptionName": "f1_chem",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            },
+            {
+              "Value": "soar_vests\\data\\chemlight_a_ir_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            }
+          ]
+        },
+        "f1_fastmag": {
+          "Action": 0,
+          "OptionName": "f1_fastmag",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            },
+            {
+              "Value": "soar_vests\\data\\fastmag_tan_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            }
+          ]
+        },
+        "f1_izlid": {
+          "Action": 0,
+          "OptionName": "f1_izlid",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            },
+            {
+              "Value": "soar_vests\\data\\izlid_ca.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            }
+          ]
+        },
+        "f1_kang": {
+          "Action": 2,
+          "OptionName": "f1_kang",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            },
+            {
+              "Value": "tfl_vests\\textures\\kangaroo2_mc_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            }
+          ]
+        },
+        "f1_mag1": {
+          "Action": 0,
+          "OptionName": "f1_mag1",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            },
+            {
+              "Value": "tfl_vests\\textures\\pmag30_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            }
+          ]
+        },
+        "f1_mag2": {
+          "Action": 0,
+          "OptionName": "f1_mag2",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            },
+            {
+              "Value": "tfl_vests\\textures\\pmag30_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            }
+          ]
+        },
+        "f1_marker": {
+          "Action": 0,
+          "OptionName": "f1_marker",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            },
+            {
+              "Value": "soar_vests\\data\\c_marker_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            }
+          ]
+        },
+        "f2_basep": {
+          "Action": 0,
+          "OptionName": "f2_basep",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\baseplate_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            }
+          ]
+        },
+        "f2_chem": {
+          "Action": 0,
+          "OptionName": "f2_chem",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\chemlight_a_ir_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            }
+          ]
+        },
+        "f2_glock": {
+          "Action": 0,
+          "OptionName": "f2_glock",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\glock17_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            }
+          ]
+        },
+        "f2_izlid": {
+          "Action": 0,
+          "OptionName": "f2_izlid",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\izlid_ca.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            }
+          ]
+        },
+        "f2_kang": {
+          "Action": 0,
+          "OptionName": "f2_kang",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "tfl_vests\\textures\\kangaroo2_mc_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            }
+          ]
+        },
+        "f2_mag": {
+          "Action": 0,
+          "OptionName": "f2_mag",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "tfl_vests\\textures\\pmag30_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            }
+          ]
+        },
+        "f2_marker": {
+          "Action": 0,
+          "OptionName": "f2_marker",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\c_marker_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            }
+          ]
+        },
+        "f2_tq": {
+          "Action": 0,
+          "OptionName": "f2_tq",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\material_2_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_2"
+            }
+          ]
+        },
+        "f3_basep": {
+          "Action": 0,
+          "OptionName": "f3_basep",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\baseplate_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_3"
+            }
+          ]
+        },
+        "f3_blade": {
+          "Action": 0,
+          "OptionName": "f3_blade",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\haydenblade_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_3"
+            }
+          ]
+        },
+        "f3_glock": {
+          "Action": 0,
+          "OptionName": "f3_glock",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\glock17_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_3"
+            }
+          ]
+        },
+        "f3_gpouch": {
+          "Action": 0,
+          "OptionName": "f3_gpouch",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\material_1_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_3"
+            }
+          ]
+        },
+        "f3_kang": {
+          "Action": 0,
+          "OptionName": "f3_kang",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "tfl_vests\\textures\\kangaroo2_mc_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_3"
+            }
+          ]
+        },
+        "f3_mags": {
+          "Action": 0,
+          "OptionName": "f3_mags",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "tfl_vests\\textures\\pmag30_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_3"
+            }
+          ]
+        },
+        "f3_med1": {
+          "Action": 0,
+          "OptionName": "f3_med1",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\big_gp_med_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_3"
+            }
+          ]
+        },
+        "f3_med2": {
+          "Action": 0,
+          "OptionName": "f3_med2",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\pouch_1_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_3"
+            }
+          ]
+        },
+        "f3_ptt": {
+          "Action": 0,
+          "OptionName": "f3_ptt",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\u94_ptt_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_3"
+            }
+          ]
+        },
+        "f3_scissor": {
+          "Action": 0,
+          "OptionName": "f3_scissor",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\palomar_acc_vest2_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_3"
+            }
+          ]
+        },
+        "f3_tq": {
+          "Action": 0,
+          "OptionName": "f3_tq",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\parts01_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_3"
+            }
+          ]
+        },
+        "f3_wire": {
+          "Action": 0,
+          "OptionName": "f3_wire",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\wire_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_3"
+            }
+          ]
+        },
+        "flpc_water": {
+          "Action": 0,
+          "OptionName": "flpc_water",
+          "OptionValue": "",
+          "Priority": 0,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\pilot_gear_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_1_Water"
+            }
+          ]
+        }
+      },
+      "GapOptions": {},
+      "ExplicitOptions": {}
+    },
+    {
+      "P3dModel": "SOAR_Vests\\models\\AVS_Flight_4.p3d",
+      "ClassRoot": "CfgWeapons",
+      "Name": "AVS_Flight_4",
+      "FirstConfigClassName": "AVS_Flight_4",
+      "Action": null,
+      "ModelName": null,
+      "HiddenSelections": {
+        "fl4_water": {
+          "Action": null,
+          "OptionName": null,
+          "OptionValue": null,
+          "Priority": null,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_4"
+            },
+            {
+              "Value": "soar_vests\\data\\pilot_gear_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_4_Water"
+            }
+          ]
+        }
+      },
+      "GapOptions": {},
+      "ExplicitOptions": {}
+    },
+    {
+      "P3dModel": "SOAR_Vests\\models\\AVS_Flight_5.p3d",
+      "ClassRoot": "CfgWeapons",
+      "Name": "AVS_Flight_5",
+      "FirstConfigClassName": "AVS_Flight_5",
+      "Action": null,
+      "ModelName": null,
+      "HiddenSelections": {
+        "fl5_water": {
+          "Action": null,
+          "OptionName": null,
+          "OptionValue": null,
+          "Priority": null,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_5"
+            },
+            {
+              "Value": "soar_vests\\data\\pilot_gear_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_5_Water"
+            }
+          ]
+        }
+      },
+      "GapOptions": {},
+      "ExplicitOptions": {}
+    },
+    {
+      "P3dModel": "SOAR_Vests\\models\\AVS_Flight_6.p3d",
+      "ClassRoot": "CfgWeapons",
+      "Name": "AVS_Flight_6",
+      "FirstConfigClassName": "AVS_Flight_6",
+      "Action": null,
+      "ModelName": null,
+      "HiddenSelections": {
+        "fl6_water": {
+          "Action": null,
+          "OptionName": null,
+          "OptionValue": null,
+          "Priority": null,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_6"
+            },
+            {
+              "Value": "soar_vests\\data\\pilot_gear_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_6_Water"
+            }
+          ]
+        }
+      },
+      "GapOptions": {},
+      "ExplicitOptions": {}
+    },
+    {
+      "P3dModel": "SOAR_Vests\\models\\AVS_Flight_7.p3d",
+      "ClassRoot": "CfgWeapons",
+      "Name": "AVS_Flight_7",
+      "FirstConfigClassName": "AVS_Flight_7",
+      "Action": null,
+      "ModelName": null,
+      "HiddenSelections": {
+        "fl7_water": {
+          "Action": null,
+          "OptionName": null,
+          "OptionValue": null,
+          "Priority": null,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_7"
+            },
+            {
+              "Value": "soar_vests\\data\\pilot_gear_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "AVS_Flight_7_Water"
+            }
+          ]
+        }
+      },
+      "GapOptions": {},
+      "ExplicitOptions": {}
+    },
+    {
+      "P3dModel": "SOAR_Vests\\models\\FC_Flight_1.p3d",
+      "ClassRoot": "CfgWeapons",
+      "Name": "FC_Flight_1",
+      "FirstConfigClassName": "FC_Flight_1",
+      "Action": null,
+      "ModelName": null,
+      "HiddenSelections": {
+        "fc1_water": {
+          "Action": null,
+          "OptionName": null,
+          "OptionValue": null,
+          "Priority": null,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "FC_Flight_1"
+            },
+            {
+              "Value": "soar_vests\\data\\pilot_gear_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "FC_Flight_1_Water"
+            }
+          ]
+        }
+      },
+      "GapOptions": {},
+      "ExplicitOptions": {}
+    },
+    {
+      "P3dModel": "SOAR_Vests\\models\\FC_Flight_2.p3d",
+      "ClassRoot": "CfgWeapons",
+      "Name": "FC_Flight_2",
+      "FirstConfigClassName": "FC_Flight_2",
+      "Action": null,
+      "ModelName": null,
+      "HiddenSelections": {
+        "fc2_water": {
+          "Action": null,
+          "OptionName": null,
+          "OptionValue": null,
+          "Priority": null,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "FC_Flight_2"
+            },
+            {
+              "Value": "soar_vests\\data\\pilot_gear_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "FC_Flight_2_Water"
+            }
+          ]
+        }
+      },
+      "GapOptions": {},
+      "ExplicitOptions": {}
+    },
+    {
+      "P3dModel": "SOAR_Vests\\models\\FC_Flight_3.p3d",
+      "ClassRoot": "CfgWeapons",
+      "Name": "FC_Flight_3",
+      "FirstConfigClassName": "FC_Flight_3",
+      "Action": null,
+      "ModelName": null,
+      "HiddenSelections": {
+        "fc3_water": {
+          "Action": null,
+          "OptionName": null,
+          "OptionValue": null,
+          "Priority": null,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "FC_Flight_3"
+            },
+            {
+              "Value": "soar_vests\\data\\pilot_gear_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "FC_Flight_3_Water"
+            }
+          ]
+        }
+      },
+      "GapOptions": {},
+      "ExplicitOptions": {}
+    },
+    {
+      "P3dModel": "SOAR_Vests\\models\\StrandhoggV1_1.p3d",
+      "ClassRoot": "CfgWeapons",
+      "Name": "StrandhoggV1_1",
+      "FirstConfigClassName": "StrandhoggV1_1_Water_Harness",
+      "Action": null,
+      "ModelName": null,
+      "HiddenSelections": {
+        "sv1_harness": {
+          "Action": null,
+          "OptionName": null,
+          "OptionValue": null,
+          "Priority": null,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV1_1_Water"
+            },
+            {
+              "Value": "soar_vests\\data\\usmc_pilot_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV1_1_Water_Harness"
+            }
+          ]
+        },
+        "sv1_water": {
+          "Action": null,
+          "OptionName": null,
+          "OptionValue": null,
+          "Priority": null,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV1_1_Harness"
+            },
+            {
+              "Value": "soar_vests\\data\\pilot_gear_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV1_1_Water_Harness"
+            }
+          ]
+        }
+      },
+      "GapOptions": {},
+      "ExplicitOptions": {}
+    },
+    {
+      "P3dModel": "SOAR_Vests\\models\\StrandhoggV1_2.p3d",
+      "ClassRoot": "CfgWeapons",
+      "Name": "StrandhoggV1_2",
+      "FirstConfigClassName": "StrandhoggV1_2_Water_Harness",
+      "Action": null,
+      "ModelName": null,
+      "HiddenSelections": {
+        "sv1_harness": {
+          "Action": null,
+          "OptionName": null,
+          "OptionValue": null,
+          "Priority": null,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV1_2_Water"
+            },
+            {
+              "Value": "soar_vests\\data\\usmc_pilot_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV1_2_Water_Harness"
+            }
+          ]
+        },
+        "sv1_water": {
+          "Action": null,
+          "OptionName": null,
+          "OptionValue": null,
+          "Priority": null,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV1_2_Harness"
+            },
+            {
+              "Value": "soar_vests\\data\\pilot_gear_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV1_2_Water_Harness"
+            }
+          ]
+        }
+      },
+      "GapOptions": {},
+      "ExplicitOptions": {}
+    },
+    {
+      "P3dModel": "SOAR_Vests\\models\\StrandhoggV2_1.p3d",
+      "ClassRoot": "CfgWeapons",
+      "Name": "StrandhoggV2_1",
+      "FirstConfigClassName": "StrandhoggV2_1_Water_Harness",
+      "Action": null,
+      "ModelName": null,
+      "HiddenSelections": {
+        "sv2_harness": {
+          "Action": null,
+          "OptionName": null,
+          "OptionValue": null,
+          "Priority": null,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV2_1_Water"
+            },
+            {
+              "Value": "soar_vests\\data\\usmc_pilot_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV2_1_Water_Harness"
+            }
+          ]
+        },
+        "sv2_water": {
+          "Action": null,
+          "OptionName": null,
+          "OptionValue": null,
+          "Priority": null,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV2_1_Harness"
+            },
+            {
+              "Value": "soar_vests\\data\\pilot_gear_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV2_1_Water_Harness"
+            }
+          ]
+        }
+      },
+      "GapOptions": {},
+      "ExplicitOptions": {}
+    },
+    {
+      "P3dModel": "SOAR_Vests\\models\\StrandhoggV2_2.p3d",
+      "ClassRoot": "CfgWeapons",
+      "Name": "StrandhoggV2_2",
+      "FirstConfigClassName": "StrandhoggV2_2_Water_Harness",
+      "Action": null,
+      "ModelName": null,
+      "HiddenSelections": {
+        "sv2_harness": {
+          "Action": null,
+          "OptionName": null,
+          "OptionValue": null,
+          "Priority": null,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV2_2_Water"
+            },
+            {
+              "Value": "soar_vests\\data\\usmc_pilot_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV2_2_Water_Harness"
+            }
+          ]
+        },
+        "sv2_water": {
+          "Action": null,
+          "OptionName": null,
+          "OptionValue": null,
+          "Priority": null,
+          "Values": [
+            {
+              "Value": "",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV2_2_Harness"
+            },
+            {
+              "Value": "soar_vests\\data\\pilot_gear_co.paa",
+              "ValueName": null,
+              "FirstConfigClassName": "StrandhoggV2_2_Water_Harness"
+            }
+          ]
+        }
+      },
+      "GapOptions": {},
+      "ExplicitOptions": {}
+    }
+  ]
+}

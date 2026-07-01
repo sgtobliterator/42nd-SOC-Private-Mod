@@ -1,0 +1,1 @@
+(("STY_Item_Pruners" in (uniformItems ACE_player)) || ("STY_Item_Pruners" in (vestItems ACE_player))) && !(underwater ACE_player);

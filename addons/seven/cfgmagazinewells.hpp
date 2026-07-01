@@ -1,0 +1,175 @@
+class CfgMagazineWells
+{
+	class louetta_300
+	{
+		Louetta_Magazines[] =
+		{
+			"Louetta_300_Blackout",
+			"Louetta_300_Blackout_SMK",
+			"Louetta_300_Blackout_40",
+			"Louetta_300_Blackout_SMK_40",
+			"Louetta_300_Blackout_40_tan",
+			"Louetta_300_Blackout_SMK_40_tan",
+			"Louetta_300_Blackout_40_tti",
+			"Louetta_300_Blackout_SMK_40_tti",
+			"Louetta_300_Blackout_40_tan_tti",
+			"Louetta_300_Blackout_SMK_40_tan_tti"
+		};
+	};
+	class STANAG_556x45
+	{
+		Louetta_Magazines[] =
+		{
+			"Louetta_556x45_Stanag",
+			"Louetta_556x45_T_Stanag",
+			"Louetta_556x45_TM_Stanag",
+			"Louetta_556x45_IRT_Stanag",
+			"Louetta_556x45_IRTM_Stanag",
+			"Louetta_556x45_PMAG_20",
+			"Louetta_556x45_T_PMAG_20",
+			"Louetta_556x45_TM_PMAG_20",
+			"Louetta_556x45_IRT_PMAG_20",
+			"Louetta_556x45_IRTM_PMAG_20",
+			"Louetta_556x45_PMAG_tan_20",
+			"Louetta_556x45_T_PMAG_tan_20",
+			"Louetta_556x45_TM_PMAG_tan_20",
+			"Louetta_556x45_IRT_PMAG_tan_20",
+			"Louetta_556x45_IRTM_PMAG_tan_20",
+			"Louetta_556x45_PMAG_60",
+			"Louetta_556x45_T_PMAG_60",
+			"Louetta_556x45_TM_PMAG_60",
+			"Louetta_556x45_IRT_PMAG_60",
+			"Louetta_556x45_IRTM_PMAG_60",
+			"Louetta_556x45_PMAG_mw",
+			"Louetta_556x45_T_PMAG_mw",
+			"Louetta_556x45_TM_PMAG_mw",
+			"Louetta_556x45_IRT_PMAG_mw",
+			"Louetta_556x45_IRTM_PMAG_mw",
+			"Louetta_556x45_PMAG_30",
+			"Louetta_556x45_T_PMAG_30",
+			"Louetta_556x45_TM_PMAG_30",
+			"Louetta_556x45_IRT_PMAG_30",
+			"Louetta_556x45_IRTM_PMAG_30",
+			"Louetta_556x45_PMAG_40",
+			"Louetta_556x45_T_PMAG_40",
+			"Louetta_556x45_TM_PMAG_40",
+			"Louetta_556x45_IRT_PMAG_40",
+			"Louetta_556x45_IRTM_PMAG_40",
+			"Louetta_556x45_PMAG_40_tan",
+			"Louetta_556x45_T_PMAG_40_tan",
+			"Louetta_556x45_TM_PMAG_40_tan",
+			"Louetta_556x45_IRT_PMAG_40_tan",
+			"Louetta_556x45_IRTM_PMAG_40_tan",
+			"Louetta_556x45_PMAG_40_tti",
+			"Louetta_556x45_T_PMAG_40_tti",
+			"Louetta_556x45_TM_PMAG_40_tti",
+			"Louetta_556x45_IRT_PMAG_40_tti",
+			"Louetta_556x45_IRTM_PMAG_40_tti",
+			"Louetta_556x45_PMAG_40_tan_tti",
+			"Louetta_556x45_T_PMAG_40_tan_tti",
+			"Louetta_556x45_TM_PMAG_40_tan_tti",
+			"Louetta_556x45_IRT_PMAG_40_tan_tti",
+			"Louetta_556x45_IRTM_PMAG_40_tan_tti",
+			"Louetta_556x45_PMAG_30_tan",
+			"Louetta_556x45_T_PMAG_30_tan",
+			"Louetta_556x45_TM_PMAG_30_tan",
+			"Louetta_556x45_IRT_PMAG_30_tan",
+			"Louetta_556x45_IRTM_PMAG_30_tan"
+		};
+	};
+	class STANAG_762x51
+	{
+		Louetta_Magazines[] =
+		{
+			"Louetta_20Rnd_762x51mm_m110",
+			"Louetta_20Rnd_762x51mm_m110_T",
+			"Louetta_20Rnd_762x51mm_m110_TM",
+			"Louetta_20Rnd_762x51mm_m110_IRT",
+			"Louetta_20Rnd_762x51mm_m110_IRTM",
+			"Louetta_20Rnd_762x51mm_pmag",
+			"Louetta_20Rnd_762x51mm_pmag_T",
+			"Louetta_20Rnd_762x51mm_pmag_TM",
+			"Louetta_20Rnd_762x51mm_pmag_IRT",
+			"Louetta_20Rnd_762x51mm_pmag_IRTM",
+			"Louetta_20Rnd_762x51mm_pmag_tan",
+			"Louetta_20Rnd_762x51mm_pmag_tan_T",
+			"Louetta_20Rnd_762x51mm_pmag_tan_TM",
+			"Louetta_20Rnd_762x51mm_pmag_tan_IRT",
+			"Louetta_20Rnd_762x51mm_pmag_tan_IRTM",
+		};
+	};
+	class AK_545x39
+	{
+		Louetta_Magazines[] =
+		{
+			"Louetta_545x39_PMAG",
+			"Louetta_545x39_T_PMAG",
+			"Louetta_545x39_TM_PMAG",
+			"Louetta_545x39_IRT_PMAG",
+			"Louetta_545x39_IRTM_PMAG",
+			"Louetta_545x39_PMAG_tan",
+			"Louetta_545x39_T_PMAG_tan",
+			"Louetta_545x39_TM_PMAG_tan",
+			"Louetta_545x39_IRT_PMAG_tan",
+			"Louetta_545x39_IRTM_PMAG_tan"
+		};
+	};
+	class CBA_545x39_AK
+	{
+		Louetta_Magazines[] =
+		{
+			"Louetta_545x39_PMAG",
+			"Louetta_545x39_T_PMAG",
+			"Louetta_545x39_TM_PMAG",
+			"Louetta_545x39_IRT_PMAG",
+			"Louetta_545x39_IRTM_PMAG",
+			"Louetta_545x39_PMAG_tan",
+			"Louetta_545x39_T_PMAG_tan",
+			"Louetta_545x39_TM_PMAG_tan",
+			"Louetta_545x39_IRT_PMAG_tan",
+			"Louetta_545x39_IRTM_PMAG_tan"
+		};
+	};
+	class CBA_545x39_RPK
+	{
+		Louetta_Magazines[] =
+		{
+			"Louetta_545x39_PMAG",
+			"Louetta_545x39_T_PMAG",
+			"Louetta_545x39_TM_PMAG",
+			"Louetta_545x39_IRT_PMAG",
+			"Louetta_545x39_IRTM_PMAG",
+			"Louetta_545x39_PMAG_tan",
+			"Louetta_545x39_T_PMAG_tan",
+			"Louetta_545x39_TM_PMAG_tan",
+			"Louetta_545x39_IRT_PMAG_tan",
+			"Louetta_545x39_IRTM_PMAG_tan"
+		};
+	};
+	class Louetta_mk48
+	{
+		Louetta_Magazines[] =
+		{
+			"Louetta_100Rnd_762x51mm",
+			"Louetta_100Rnd_762x51mm_T",
+			"Louetta_100Rnd_762x51mm_TM",
+			"Louetta_100Rnd_762x51mm_IRT",
+			"Louetta_100Rnd_762x51mm_IRTM",
+			"Louetta_200Rnd_762x51mm",
+			"Louetta_200Rnd_762x51mm_T",
+			"Louetta_200Rnd_762x51mm_TM",
+			"Louetta_200Rnd_762x51mm_IRT",
+			"Louetta_200Rnd_762x51mm_IRTM",
+			"Louetta_100Rnd_S_762x51mm",
+			"Louetta_100Rnd_S_762x51mm_T",
+			"Louetta_100Rnd_S_762x51mm_TM",
+			"Louetta_100Rnd_S_762x51mm_IRT",
+			"Louetta_100Rnd_S_762x51mm_IRTM",
+			"Louetta_200Rnd_S_762x51mm",
+			"Louetta_200Rnd_S_762x51mm_T",
+			"Louetta_200Rnd_S_762x51mm_TM",
+			"Louetta_200Rnd_S_762x51mm_IRT",
+			"Louetta_200Rnd_S_762x51mm_IRTM"
+		};
+	};
+};
