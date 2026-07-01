@@ -1,0 +1,14 @@
+{
+	"title": "42nd SOC Private Mod",
+	"name": "42ndPrivate",
+	"author": "42nd SOC",
+	"website": "https://github.com/sgtobliterator/42nd-SOC-Private-Mod",
+	"version": "0.0.1",
+	"buildPath": "build",
+	"privateKey": "",
+	"serverDirs": [],
+	"serverUse32bit": false,
+	"clientDirs": [],
+	"clientMods": [],
+	"ftpConnection": {}
+}
