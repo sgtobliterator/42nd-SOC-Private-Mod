@@ -1,0 +1,21 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: TF13_NVG\rvmat\splash\blueglow.rvmat
+//Produced from mikero's Dos Tools Dll version 7.97
+//https://mikero.bytex.digital/Downloads
+//'now' is Tue Sep 06 13:42:15 2022 : 'file' last modified on Sat May 21 13:01:54 2022
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+class StageTI
+{
+	texture = "a3\data_f\default_vehicle_ti_ca.paa";
+};
+ambient[] = {0,0,0,1};
+diffuse[] = {0,0,0,1};
+forcedDiffuse[] = {0,0,0,0};
+emmisive[] = {100,20000,11000,1};
+specular[] = {0,0,0,1};
+specularPower = 1;
+PixelShaderID = "Normal";
+VertexShaderID = "Basic";
