@@ -126,8 +126,6 @@
 		"addons/aceax_compat_tfl_sf",
 		"addons/aceax_compat_tfl_tshirt",
 		"addons/aceax_compat_tfl_vests",
-		"addons/aceax_tier1",
-		"addons/acwp_core",
 		"addons/amp_breaching_charge",
 		"addons/amtgopro2",
 		"addons/ascz_heads",
@@ -166,7 +164,8 @@
 		"addons/vmnd",
 		"addons/vmnd_nvg",
 		"addons/vtn_core_ui",
-		"addons/worm_izlid"
+		"addons/worm_izlid",
+		"addons/Sherrif_Vics"
 	],
 	"clientMods": [],
 	"ftpConnection": {}
