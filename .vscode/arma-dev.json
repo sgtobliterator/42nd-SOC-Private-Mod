@@ -87,7 +87,6 @@
 		"addons/TF13_Backpacks",
 		"addons/TF13_NVG",
 		"addons/TFL_Belt",
-		"addons/TFL_BettIR",
 		"addons/TFL_Cold",
 		"addons/TFL_Drypack",
 		"addons/TFL_G3",
@@ -110,9 +109,6 @@
 		"addons/TFN_Core",
 		"addons/T_Shirt",
 		"addons/WreckSOAR",
-		"addons/aceax_bettir_compat_louetta",
-		"addons/aceax_bettir_compat_tfl_nvg",
-		"addons/aceax_bettir_compat_vmnd",
 		"addons/aceax_compat_asip",
 		"addons/aceax_compat_tfl_M9",
 		"addons/aceax_compat_tfl_cap",
@@ -132,7 +128,6 @@
 		"addons/ball_cap",
 		"addons/flb_backpacks",
 		"addons/four",
-		"addons/gatekeep_bettir_compat",
 		"addons/gatekeep_facewear",
 		"addons/gatekeep_functions",
 		"addons/gatekeep_headgear",
@@ -160,7 +155,11 @@
 		"addons/vmnd_nvg",
 		"addons/vtn_core_ui",
 		"addons/worm_izlid",
-		"addons/Sherrif_Vics"
+		"addons/Sherrif_Vics",
+		"addons/nsr",
+		"addons/seven",
+		"addons/RH_acc",
+		"addons/RH_acc_cfg"
 	],
 	"clientMods": [],
 	"ftpConnection": {}

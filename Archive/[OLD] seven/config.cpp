@@ -1990,8 +1990,7 @@ class asdg_MuzzleSlot_556
 	};
 };
 class asdg_PistolOpticMount;
-class CfgWeapons
-{
+class CfgWeapons {
 	class Rifle;
 	class Rifle_Base_F: Rifle
 	{
