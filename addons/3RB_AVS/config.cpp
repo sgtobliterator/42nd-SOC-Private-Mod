@@ -26,7 +26,7 @@ class CfgVehicles
 		scopeCurator=0;
 		author="S-4 Logistics";
 		DLC="3RB";
-		displayName="[2-75th] Medic Alpha (556)";
+		displayName="[42nd SOC] Medic Alpha (556)";
 		picture="\TFN_Vests\Data\UI\3RB.paa";
 		isbackpack=1;
 		model="3RB_AVS\Models\Medic_556_A.p3d";
@@ -46,7 +46,7 @@ class CfgVehicles
 		scope=2;
 		scopeArsenal=2;
 		eden=2;
-		displayName="[2-75th] Medic Alpha (556)";
+		displayName="[42nd SOC] Medic Alpha (556)";
 		model="3RB_AVS\Models\Medic_556_A.p3d";
 		hiddenSelections[]=
 		{
@@ -63,7 +63,7 @@ class CfgVehicles
 		scope=2;
 		scopeArsenal=2;
 		eden=2;
-		displayName="[2-75th] Medic Bravo (556)";
+		displayName="[42nd SOC] Medic Bravo (556)";
 		model="3RB_AVS\Models\Medic_556_B.p3d";
 		hiddenSelections[]=
 		{
@@ -80,7 +80,7 @@ class CfgVehicles
 		scope=2;
 		scopeArsenal=2;
 		eden=2;
-		displayName="[2-75th] Medic Charlie (556)";
+		displayName="[42nd SOC] Medic Charlie (556)";
 		model="3RB_AVS\Models\Medic_556_C.p3d";
 		hiddenSelections[]=
 		{
@@ -97,7 +97,7 @@ class CfgVehicles
 		scope=2;
 		scopeArsenal=2;
 		eden=2;
-		displayName="[2-75th] Medic Delta (556)";
+		displayName="[42nd SOC] Medic Delta (556)";
 		model="3RB_AVS\Models\Medic_556_D.p3d";
 		hiddenSelections[]=
 		{

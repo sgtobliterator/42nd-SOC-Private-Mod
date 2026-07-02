@@ -15,7 +15,8 @@ class CfgPatches
 			"A3_Data_F",
 			"A3_Weapons_F_Mark",
 			"TFL_Headgear_Functions",
-			"Louetta_two"
+			"Louetta_two",
+			"SOAR_Packs"
 		};
 		requiredVersion=1.6799999;
 		units[]={};
@@ -30,6 +31,27 @@ class CfgPatches
 		magazines[]={};
 	};
 };
+
+//Dependent on SOAR Packs purely for the ACE Arsenal Extension Compat. Feel free to modify
+
+class XtdGearModels {
+	
+	class CfgVehicles {
+
+		class SOAR_radio_packs {
+
+			class variations {
+				values[] += {
+					"Y26_Panel"
+				};
+				class Y26_Panel {
+					label="Y26 Panel";
+				};
+			};
+		};	
+	};
+};
+
 class Mode_SemiAuto;
 class Mode_FullAuto;
 class CowsSlot;
@@ -1678,6 +1700,11 @@ class CfgVehicles
 		hiddenSelections[]={};
 		hiddenSelectionsTextures[]={};
 		DLC="SOCOM";
+		class XtdGearInfo
+		{
+			model="SOAR_radio_packs";
+			variation="Y26_Panel";
+		};
 	};
 	class Man;
 	class CAManBase: Man

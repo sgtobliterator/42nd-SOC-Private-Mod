@@ -8,6 +8,35 @@ class CfgPatches
 		requiredAddons[]={};
 	};
 };
+
+class XtdGearModels {
+
+	class CfgWeapons {
+
+		class cct_vest {
+			label="CCT Vest";
+			author="Sergeant";
+			options[]= {
+				"android"
+			};
+			class android {
+				label="Android";
+				changeingame=1;
+				values[]= {
+					"deployed",
+					"stowed"
+				};
+				class deployed {
+					label="Deployed";
+				};
+				class stowed {
+					label="Stowed";
+				};
+			};	
+		}	;
+	};
+};
+
 class cfgWeapons
 {
 	class ItemCore;
@@ -19,7 +48,7 @@ class cfgWeapons
 		picture="\Michael_CCT\logo.paa";
 		scope=2;
 		weaponPoolAvailable=1;
-		displayName="Michael CCT (UP) ";
+		displayName="CCT (UP)";
 		model="\Michael_CCT\Michael_Vest.p3d";
 		hiddenSelections[]=
 		{
@@ -42,6 +71,11 @@ class cfgWeapons
 				""
 			};
 		};
+		class XtdGearInfo
+		{
+			model="cct_vest";
+			android="stowed";
+		};
 	};
 	class JPC_J2: ItemCore
 	{
@@ -49,7 +83,7 @@ class cfgWeapons
 		picture="\Michael_CCT\logo.paa";
 		scope=2;
 		weaponPoolAvailable=1;
-		displayName="Michael CCT (Down) ";
+		displayName="CCT (Down) ";
 		model="\Michael_CCT\Michael_Vest_Down.p3d";
 		hiddenSelections[]=
 		{
@@ -72,43 +106,19 @@ class cfgWeapons
 				""
 			};
 		};
+		class XtdGearInfo
+		{
+			model="cct_vest";
+			android="deployed";
+		};
 	};
 };
 class CfgVehicles
 {
-	class Man;
 	class ContainerSupply;
 	class Supply400: ContainerSupply
 	{
 		maximumLoad=400;
-	};
-	class CAManBase: Man
-	{
-		class ACE_SelfActions
-		{
-			class ACE_Equipment
-			{
-				class Viking_3rdSFGZ_Equipment_Actions
-				{
-					displayName="Vest Modifications";
-					icon="avs\data\.paa";
-					class unfoldjugg
-					{
-						displayName="Unfold Jugg";
-						condition="vest player == 'JPC_J1'";
-						exceptions[]={};
-						statement="                    _items = VestItems player;                    _player addVest 'JPC_J2';                    {player addItemToVest _x;} forEach _items;					[ace_player, 'AVS_J2'] remoteExec ['switchMove', 0];                    ";
-					};
-					class foldjugg
-					{
-						displayName="Fold Jugg";
-						condition="vest player == 'JPC_J2'";
-						exceptions[]={};
-						statement="                    _items = vestItems player;                    _player addVest 'JPC_J1';                    {player addItemToVest _x;} forEach _items;					[ace_player, 'AVS_J1'] remoteExec ['switchMove', 0];                    ";
-					};
-				};
-			};
-		};
 	};
 };
 class cfgMods

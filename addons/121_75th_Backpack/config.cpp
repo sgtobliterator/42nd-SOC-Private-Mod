@@ -37,7 +37,7 @@ class CfgVehicles
 		mapSize=2;
 		vehicleClass="Backpacks";
 		allowedSlots[]={901};
-		displayName="[75th Ranger] Eagle Industries YOTE Pack";
+		displayName="[42nd SOC] Eagle Industries YOTE Pack";
 		picture="\121_75th_Backpack\121_ranger_pack_ca.paa";
 		model="121_75th_Backpack\ranger_pack3.p3d";
 		maximumLoad=350;
@@ -62,7 +62,7 @@ class CfgVehicles
 		mapSize=2;
 		vehicleClass="Backpacks";
 		allowedSlots[]={901};
-		displayName="[75th Ranger] Eagle Industries YOTE Pack";
+		displayName="[42nd SOC] Eagle Industries YOTE Pack";
 		picture="\121_75th_Backpack\121_ranger_pack_ca.paa";
 		model="121_75th_Backpack\ranger_pack3_wirecutter.p3d";
 		maximumLoad=350;
@@ -87,7 +87,7 @@ class CfgVehicles
 		mapSize=2;
 		vehicleClass="Backpacks";
 		allowedSlots[]={901};
-		displayName="[75th Ranger] Medic's M9 Pack";
+		displayName="[42nd SOC] Medic's M9 Pack";
 		picture="\121_75th_Backpack\121_ranger_medpack_ca.paa";
 		model="121_75th_Backpack\ranger_m9.p3d";
 		hiddenSelections[]=
@@ -115,7 +115,7 @@ class CfgVehicles
 		mapSize=2;
 		vehicleClass="Backpacks";
 		allowedSlots[]={901};
-		displayName="[75th Ranger] Mystery Ranch ASAP Pack";
+		displayName="[42nd SOC] Mystery Ranch ASAP Pack";
 		picture="\121_75th_Backpack\121_ranger_asap_ca.paa";
 		model="121_75th_Backpack\ranger_pack4.p3d";
 		maximumLoad=350;

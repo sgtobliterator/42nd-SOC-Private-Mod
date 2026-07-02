@@ -20,7 +20,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Training Rugby Shirt";
+		displayName="[42nd SOC] Training Rugby Shirt";
 		model="121_75th_Uniform\ranger_rugby1.p3d";
 	};
 	class visco_pcu1: B_Soldier_base_F
@@ -28,7 +28,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Training Combat Jacket";
+		displayName="[42nd SOC] Training Combat Jacket";
 		model="121_75th_Uniform\ranger_pcu.p3d";
 		hiddenSelections[]=
 		{
@@ -48,7 +48,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Training Combat Jacket";
+		displayName="[42nd SOC] Training Combat Jacket";
 		model="121_75th_Uniform\ranger_pcu.p3d";
 		hiddenSelections[]=
 		{
@@ -68,7 +68,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_acu1.p3d";
 		hiddenSelections[]=
 		{
@@ -91,7 +91,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_acu2.p3d";
 		hiddenSelections[]=
 		{
@@ -114,7 +114,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_acu1.p3d";
 		hiddenSelections[]=
 		{
@@ -137,7 +137,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_acu2.p3d";
 		hiddenSelections[]=
 		{
@@ -160,7 +160,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_acu1.p3d";
 		hiddenSelections[]=
 		{
@@ -183,7 +183,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_acu2.p3d";
 		hiddenSelections[]=
 		{
@@ -206,7 +206,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_acu1.p3d";
 		hiddenSelections[]=
 		{
@@ -229,7 +229,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_acu2.p3d";
 		hiddenSelections[]=
 		{
@@ -252,7 +252,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -284,7 +284,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -316,7 +316,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -348,7 +348,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -380,7 +380,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -412,7 +412,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -444,7 +444,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -476,7 +476,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -508,7 +508,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -540,7 +540,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -572,7 +572,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -604,7 +604,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -636,7 +636,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -668,7 +668,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -700,7 +700,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -732,7 +732,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -764,7 +764,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -796,7 +796,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -828,7 +828,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -860,7 +860,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -892,7 +892,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -924,7 +924,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -956,7 +956,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -988,7 +988,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -1020,7 +1020,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -1052,7 +1052,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -1084,7 +1084,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -1116,7 +1116,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -1148,7 +1148,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -1180,7 +1180,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -1212,7 +1212,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -1244,7 +1244,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -1276,7 +1276,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -1308,7 +1308,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -1340,7 +1340,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -1372,7 +1372,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata3.p3d";
 		hiddenSelections[]=
 		{
@@ -1404,7 +1404,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -1436,7 +1436,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -1468,7 +1468,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -1500,7 +1500,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata4.p3d";
 		hiddenSelections[]=
 		{
@@ -1532,7 +1532,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -1564,7 +1564,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -1596,7 +1596,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -1628,7 +1628,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -1660,7 +1660,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -1692,7 +1692,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -1724,7 +1724,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -1756,7 +1756,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -1788,7 +1788,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -1820,7 +1820,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -1852,7 +1852,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -1884,7 +1884,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -1916,7 +1916,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -1948,7 +1948,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -1980,7 +1980,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -2012,7 +2012,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -2044,7 +2044,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -2076,7 +2076,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -2108,7 +2108,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -2140,7 +2140,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -2172,7 +2172,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -2204,7 +2204,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -2236,7 +2236,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -2268,7 +2268,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -2300,7 +2300,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -2332,7 +2332,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -2364,7 +2364,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -2396,7 +2396,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -2428,7 +2428,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -2460,7 +2460,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -2492,7 +2492,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -2524,7 +2524,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -2556,7 +2556,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -2588,7 +2588,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -2620,7 +2620,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -2652,7 +2652,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata1.p3d";
 		hiddenSelections[]=
 		{
@@ -2684,7 +2684,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -2716,7 +2716,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -2748,7 +2748,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -2780,7 +2780,7 @@ class CfgPatches
 		scope=1;
 		dlc="";
 		modelSides[]={0,1,2,3};
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		model="121_75th_Uniform\ranger_pata2.p3d";
 		hiddenSelections[]=
 		{
@@ -2811,7 +2811,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [PVT]";
+		displayName="[42nd SOC] Briefing Uniform [PVT]";
 		uniformClass="ranger_briefing_mc";
 		hiddenSelections[]=
 		{
@@ -2845,7 +2845,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [PVT] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [PVT] [Tab]";
 		uniformClass="ranger_briefing_mc_tab";
 		hiddenSelections[]=
 		{
@@ -2879,7 +2879,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [PV2]";
+		displayName="[42nd SOC] Briefing Uniform [PV2]";
 		uniformClass="ranger_briefing_mc_pv2";
 		hiddenSelections[]=
 		{
@@ -2913,7 +2913,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [PV2] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [PV2] [Tab]";
 		uniformClass="ranger_briefing_mc_pv2_tab";
 		hiddenSelections[]=
 		{
@@ -2947,7 +2947,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [PFC]";
+		displayName="[42nd SOC] Briefing Uniform [PFC]";
 		uniformClass="ranger_briefing_mc_pfc";
 		hiddenSelections[]=
 		{
@@ -2981,7 +2981,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [PFC] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [PFC] [Tab]";
 		uniformClass="ranger_briefing_mc_pfc_tab";
 		hiddenSelections[]=
 		{
@@ -3015,7 +3015,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [SPC]";
+		displayName="[42nd SOC] Briefing Uniform [SPC]";
 		uniformClass="ranger_briefing_mc_spc";
 		hiddenSelections[]=
 		{
@@ -3049,7 +3049,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [SPC] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [SPC] [Tab]";
 		uniformClass="ranger_briefing_mc_spc_tab";
 		hiddenSelections[]=
 		{
@@ -3083,7 +3083,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [CPL]";
+		displayName="[42nd SOC] Briefing Uniform [CPL]";
 		uniformClass="ranger_briefing_mc_cpl";
 		hiddenSelections[]=
 		{
@@ -3117,7 +3117,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [CPL] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [CPL] [Tab]";
 		uniformClass="ranger_briefing_mc_cpl_tab";
 		hiddenSelections[]=
 		{
@@ -3151,7 +3151,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [SGT]";
+		displayName="[42nd SOC] Briefing Uniform [SGT]";
 		uniformClass="ranger_briefing_mc_sgt";
 		hiddenSelections[]=
 		{
@@ -3185,7 +3185,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [SGT] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [SGT] [Tab]";
 		uniformClass="ranger_briefing_mc_sgt_tab";
 		hiddenSelections[]=
 		{
@@ -3219,7 +3219,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [SSG]";
+		displayName="[42nd SOC] Briefing Uniform [SSG]";
 		uniformClass="ranger_briefing_mc_ssg";
 		hiddenSelections[]=
 		{
@@ -3253,7 +3253,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [SSG] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [SSG] [Tab]";
 		uniformClass="ranger_briefing_mc_ssg_tab";
 		hiddenSelections[]=
 		{
@@ -3287,7 +3287,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [SFC]";
+		displayName="[42nd SOC] Briefing Uniform [SFC]";
 		uniformClass="ranger_briefing_mc_sfc";
 		hiddenSelections[]=
 		{
@@ -3321,7 +3321,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [SFC] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [SFC] [Tab]";
 		uniformClass="ranger_briefing_mc_sfc_tab";
 		hiddenSelections[]=
 		{
@@ -3355,7 +3355,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [MSG]";
+		displayName="[42nd SOC] Briefing Uniform [MSG]";
 		uniformClass="ranger_briefing_mc_msg";
 		hiddenSelections[]=
 		{
@@ -3389,7 +3389,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [MSG] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [MSG] [Tab]";
 		uniformClass="ranger_briefing_mc_msg_tab";
 		hiddenSelections[]=
 		{
@@ -3423,7 +3423,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [1SG]";
+		displayName="[42nd SOC] Briefing Uniform [1SG]";
 		uniformClass="ranger_briefing_mc_1sg";
 		hiddenSelections[]=
 		{
@@ -3457,7 +3457,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [1SG] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [1SG] [Tab]";
 		uniformClass="ranger_briefing_mc_1sg_tab";
 		hiddenSelections[]=
 		{
@@ -3491,7 +3491,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [SGM]";
+		displayName="[42nd SOC] Briefing Uniform [SGM]";
 		uniformClass="ranger_briefing_mc_sgm";
 		hiddenSelections[]=
 		{
@@ -3525,7 +3525,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [SGM] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [SGM] [Tab]";
 		uniformClass="ranger_briefing_mc_sgm_tab";
 		hiddenSelections[]=
 		{
@@ -3559,7 +3559,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [CSM]";
+		displayName="[42nd SOC] Briefing Uniform [CSM]";
 		uniformClass="ranger_briefing_mc_csm";
 		hiddenSelections[]=
 		{
@@ -3593,7 +3593,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [CSM] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [CSM] [Tab]";
 		uniformClass="ranger_briefing_mc_csm_tab";
 		hiddenSelections[]=
 		{
@@ -3627,7 +3627,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [WO1]";
+		displayName="[42nd SOC] Briefing Uniform [WO1]";
 		uniformClass="ranger_briefing_mc_wo1";
 		hiddenSelections[]=
 		{
@@ -3661,7 +3661,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [WO1] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [WO1] [Tab]";
 		uniformClass="ranger_briefing_mc_wo1_tab";
 		hiddenSelections[]=
 		{
@@ -3695,7 +3695,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [CW2]";
+		displayName="[42nd SOC] Briefing Uniform [CW2]";
 		uniformClass="ranger_briefing_mc_cw2";
 		hiddenSelections[]=
 		{
@@ -3729,7 +3729,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [CW2] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [CW2] [Tab]";
 		uniformClass="ranger_briefing_mc_cw2_tab";
 		hiddenSelections[]=
 		{
@@ -3763,7 +3763,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [CW3]";
+		displayName="[42nd SOC] Briefing Uniform [CW3]";
 		uniformClass="ranger_briefing_mc_cw3";
 		hiddenSelections[]=
 		{
@@ -3797,7 +3797,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [CW3] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [CW3] [Tab]";
 		uniformClass="ranger_briefing_mc_cw3_tab";
 		hiddenSelections[]=
 		{
@@ -3831,7 +3831,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [CW4]";
+		displayName="[42nd SOC] Briefing Uniform [CW4]";
 		uniformClass="ranger_briefing_mc_cw4";
 		hiddenSelections[]=
 		{
@@ -3865,7 +3865,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [CW4] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [CW4] [Tab]";
 		uniformClass="ranger_briefing_mc_cw4_tab";
 		hiddenSelections[]=
 		{
@@ -3899,7 +3899,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [CW5]";
+		displayName="[42nd SOC] Briefing Uniform [CW5]";
 		uniformClass="ranger_briefing_mc_cw5";
 		hiddenSelections[]=
 		{
@@ -3933,7 +3933,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [CW5] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [CW5] [Tab]";
 		uniformClass="ranger_briefing_mc_cw5_tab";
 		hiddenSelections[]=
 		{
@@ -3967,7 +3967,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [1LT]";
+		displayName="[42nd SOC] Briefing Uniform [1LT]";
 		uniformClass="ranger_briefing_mc_1lt";
 		hiddenSelections[]=
 		{
@@ -4001,7 +4001,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [1LT] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [1LT] [Tab]";
 		uniformClass="ranger_briefing_mc_1lt_tab";
 		hiddenSelections[]=
 		{
@@ -4035,7 +4035,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [2LT]";
+		displayName="[42nd SOC] Briefing Uniform [2LT]";
 		uniformClass="ranger_briefing_mc_2lt";
 		hiddenSelections[]=
 		{
@@ -4069,7 +4069,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [2LT] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [2LT] [Tab]";
 		uniformClass="ranger_briefing_mc_2lt_tab";
 		hiddenSelections[]=
 		{
@@ -4103,7 +4103,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [CPT]";
+		displayName="[42nd SOC] Briefing Uniform [CPT]";
 		uniformClass="ranger_briefing_mc_cpt";
 		hiddenSelections[]=
 		{
@@ -4137,7 +4137,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [CPT] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [CPT] [Tab]";
 		uniformClass="ranger_briefing_mc_cpt_tab";
 		hiddenSelections[]=
 		{
@@ -4171,7 +4171,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [MAJ]";
+		displayName="[42nd SOC] Briefing Uniform [MAJ]";
 		uniformClass="ranger_briefing_mc_maj";
 		hiddenSelections[]=
 		{
@@ -4205,7 +4205,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [MAJ] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [MAJ] [Tab]";
 		uniformClass="ranger_briefing_mc_maj_tab";
 		hiddenSelections[]=
 		{
@@ -4239,7 +4239,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [LTC]";
+		displayName="[42nd SOC] Briefing Uniform [LTC]";
 		uniformClass="ranger_briefing_mc_ltc";
 		hiddenSelections[]=
 		{
@@ -4273,7 +4273,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [LTC] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [LTC] [Tab]";
 		uniformClass="ranger_briefing_mc_ltc_tab";
 		hiddenSelections[]=
 		{
@@ -4307,7 +4307,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [COL]";
+		displayName="[42nd SOC] Briefing Uniform [COL]";
 		uniformClass="ranger_briefing_mc_ltc";
 		hiddenSelections[]=
 		{
@@ -4341,7 +4341,7 @@ class CfgPatches
 	{
 		scope=1;
 		author="Visco";
-		displayName="[75th Ranger] Briefing Uniform [COL] [Tab]";
+		displayName="[42nd SOC] Briefing Uniform [COL] [Tab]";
 		uniformClass="ranger_briefing_mc_ltc_tab";
 		hiddenSelections[]=
 		{
@@ -4381,7 +4381,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Training Rugby Shirt";
+		displayName="[42nd SOC] Training Rugby Shirt";
 		picture="\121_75th_Uniform\121_ranger_rugby_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4396,7 +4396,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Cold Weather Jacket";
+		displayName="[42nd SOC] Cold Weather Jacket";
 		picture="\121_75th_Uniform\121_ranger_pcu_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4411,7 +4411,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Cold Weather Jacket";
+		displayName="[42nd SOC] Cold Weather Jacket";
 		picture="\121_75th_Uniform\121_ranger_pcu1_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4426,7 +4426,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_acu1_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4441,7 +4441,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_acu2_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4456,7 +4456,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_acu1_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4471,7 +4471,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_acu2_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4486,7 +4486,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_acu1_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4501,7 +4501,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_acu2_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4516,7 +4516,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_acu1_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4531,7 +4531,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_acu2_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4546,7 +4546,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4561,7 +4561,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4576,7 +4576,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4591,7 +4591,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4606,7 +4606,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4621,7 +4621,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4636,7 +4636,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4651,7 +4651,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4666,7 +4666,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4681,7 +4681,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4696,7 +4696,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4711,7 +4711,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4726,7 +4726,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4741,7 +4741,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4756,7 +4756,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4771,7 +4771,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4786,7 +4786,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4801,7 +4801,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4816,7 +4816,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4831,7 +4831,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4846,7 +4846,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4861,7 +4861,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4876,7 +4876,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4891,7 +4891,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4906,7 +4906,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4921,7 +4921,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4936,7 +4936,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4951,7 +4951,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4966,7 +4966,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4981,7 +4981,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -4996,7 +4996,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5011,7 +5011,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5026,7 +5026,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5041,7 +5041,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5056,7 +5056,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5071,7 +5071,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5086,7 +5086,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform5_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5101,7 +5101,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform6_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5116,7 +5116,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform7_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5131,7 +5131,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform8_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5146,7 +5146,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5161,7 +5161,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5176,7 +5176,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5191,7 +5191,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5206,7 +5206,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5221,7 +5221,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5236,7 +5236,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5251,7 +5251,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5266,7 +5266,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5281,7 +5281,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5296,7 +5296,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5311,7 +5311,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5326,7 +5326,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5341,7 +5341,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5356,7 +5356,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5371,7 +5371,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5386,7 +5386,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5401,7 +5401,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5416,7 +5416,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5431,7 +5431,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5446,7 +5446,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5461,7 +5461,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5476,7 +5476,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5491,7 +5491,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5506,7 +5506,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5521,7 +5521,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5536,7 +5536,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5551,7 +5551,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5566,7 +5566,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5581,7 +5581,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5596,7 +5596,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5611,7 +5611,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5626,7 +5626,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5641,7 +5641,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5656,7 +5656,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5671,7 +5671,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5686,7 +5686,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform1_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5701,7 +5701,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform2_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5716,7 +5716,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform3_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5731,7 +5731,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Combat Uniform";
+		displayName="[42nd SOC] Combat Uniform";
 		picture="\121_75th_Uniform\121_ranger_uniform4_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -5746,7 +5746,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Briefing Uniform [PVT]";
+		displayName="[42nd SOC] Briefing Uniform [PVT]";
 		picture="\121_75th_Uniform\121_ranger_bdu_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		descriptionShort="Battle Dress Uniform";
@@ -5762,7 +5762,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Briefing Uniform [1LT]";
+		displayName="[42nd SOC] Briefing Uniform [1LT]";
 		picture="\121_75th_Uniform\121_ranger_bdu_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		descriptionShort="Battle Dress Uniform";
@@ -5778,7 +5778,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Briefing Uniform [2LT]";
+		displayName="[42nd SOC] Briefing Uniform [2LT]";
 		picture="\121_75th_Uniform\121_ranger_bdu_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		descriptionShort="Battle Dress Uniform";
@@ -5794,7 +5794,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Briefing Uniform [CPT]";
+		displayName="[42nd SOC] Briefing Uniform [CPT]";
 		picture="\121_75th_Uniform\121_ranger_bdu_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		descriptionShort="Battle Dress Uniform";
@@ -5810,7 +5810,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Briefing Uniform [MAJ]";
+		displayName="[42nd SOC] Briefing Uniform [MAJ]";
 		picture="\121_75th_Uniform\121_ranger_bdu_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		descriptionShort="Battle Dress Uniform";
@@ -5826,7 +5826,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Briefing Uniform [LTC]";
+		displayName="[42nd SOC] Briefing Uniform [LTC]";
 		picture="\121_75th_Uniform\121_ranger_bdu_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		descriptionShort="Battle Dress Uniform";
@@ -5842,7 +5842,7 @@ class cfgWeapons
 	{
 		author="Visco";
 		scope=2;
-		displayName="[75th Ranger] Briefing Uniform [COL]";
+		displayName="[42nd SOC] Briefing Uniform [COL]";
 		picture="\121_75th_Uniform\121_ranger_bdu_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		descriptionShort="Battle Dress Uniform";

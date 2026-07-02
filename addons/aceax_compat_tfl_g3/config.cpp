@@ -4818,9 +4818,6 @@ class CfgWeapons
 			gloves="on";
 		};
 	};
-	class tfl_test_uniform: Uniform_Base
-	{
-	};
 	class tfl_g3_field_uniform: Uniform_Base
 	{
 		class XtdGearInfo

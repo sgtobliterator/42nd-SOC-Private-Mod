@@ -6533,8 +6533,8 @@ class CfgWeapons
 	};
 	class tfl_test_uniform: Uniform_Base
 	{
-		scope=2;
-		scopeArsenal=2;
+		scope=1;
+		scopeArsenal=0;
 		author="TFL";
 		displayName="[TFL] Test";
 		picture="";

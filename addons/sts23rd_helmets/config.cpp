@@ -18,6 +18,68 @@ class Extended_PreInit_EventHandlers
 {
 	sts23rd_helmets_XEH_preInit="call compile preprocessFileLineNumbers '\sts23rd_helmets\preInit.sqf'";
 };
+
+class XtdGearModels {
+	
+	class CfgWeapons {
+
+		class sts23rd_opscore {
+			label="23rd STS Helmets";
+			author="Sergeant";
+			options[]= {
+				"headset",
+				"variation",
+				"patch"
+			};
+			class headset {
+				label="Headset";
+				changeingame=0;
+				values[]= {
+					"amp",
+					"peltor"
+				};
+				class amp {
+					label="AMP";
+				};
+				class peltor {
+					label="Peltor";
+				};
+			};
+			class variation {
+				label="Variation";
+				changeingame=0;
+				values[]= {
+					"one",
+					"two",
+					"three",
+					"four"
+				};
+				class one {
+					label="1";
+				};
+				class two {
+					label="2";
+				};
+				class three {
+					label="3";
+				};
+				class four {
+					label="4";
+				};
+			};
+			class patch {
+				label="Patch";
+				changeingame=0;
+				values[]= {
+					"none",
+					"pj",
+					"stupid"
+				};
+			};
+		};
+	};
+};
+
 class CfgWeapons
 {
 	class ItemCore;
@@ -96,6 +158,13 @@ class CfgWeapons
 				"_Switch"
 			};
 		};
+		class XtdGearInfo
+		{
+			model="sts23rd_opscore";
+			headset="amp";
+			variation="two";
+			patch="none";
+		};
 	};
 	class sts23rd_opscore_amp_weight_off: sts23rd_opscore_amp_weight
 	{
@@ -155,6 +224,13 @@ class CfgWeapons
 				"_counterWeight",
 				"_Switch"
 			};
+		};
+		class XtdGearInfo
+		{
+			model="sts23rd_opscore";
+			headset="amp";
+			variation="one";
+			patch="none";
 		};
 	};
 	class sts23rd_opscore_amp_battery_off: sts23rd_opscore_amp_battery
@@ -216,6 +292,13 @@ class CfgWeapons
 				"_Switch"
 			};
 		};
+		class XtdGearInfo
+		{
+			model="sts23rd_opscore";
+			headset="peltor";
+			variation="four";
+			patch="none";
+		};
 	};
 	class sts23rd_opscore_peltor_weight_off: sts23rd_opscore_peltor_weight
 	{
@@ -275,6 +358,13 @@ class CfgWeapons
 				"_counterWeight",
 				"_Switch"
 			};
+		};
+		class XtdGearInfo
+		{
+			model="sts23rd_opscore";
+			headset="peltor";
+			variation="three";
+			patch="none";
 		};
 	};
 	class sts23rd_opscore_peltor_battery_off: sts23rd_opscore_peltor_battery
@@ -336,6 +426,13 @@ class CfgWeapons
 				"_ChargePro"
 			};
 		};
+		class XtdGearInfo
+		{
+			model="sts23rd_opscore";
+			headset="peltor";
+			variation="one";
+			patch="none";
+		};
 	};
 	class sts23rd_opscore_arc_battery_off: sts23rd_opscore_arc_battery
 	{
@@ -392,6 +489,13 @@ class CfgWeapons
 				"_HelmetCam",
 				"_pvs31Batt"
 			};
+		};
+		class XtdGearInfo
+		{
+			model="sts23rd_opscore";
+			headset="peltor";
+			variation="two";
+			patch="none";
 		};
 	};
 	class sts23rd_opscore_arc_weight_off: sts23rd_opscore_arc_weight
@@ -485,6 +589,13 @@ class CfgWeapons
 		{
 			uniformModel="\121_75th_helmet\75th_opscore1_off.p3d";
 		};
+		class XtdGearInfo
+		{
+			model="sts23rd_opscore";
+			headset="amp";
+			variation="one";
+			patch="stupid";
+		};
 	};
 	class sts23rd_opscore_pj_amp_weight: sts23rd_helmets_core
 	{
@@ -530,6 +641,13 @@ class CfgWeapons
 				"_pvs31Batt",
 				"_Switch"
 			};
+		};
+		class XtdGearInfo
+		{
+			model="sts23rd_opscore";
+			headset="amp";
+			variation="two";
+			patch="pj";
 		};
 	};
 	class sts23rd_opscore_pj_amp_weight_off: sts23rd_opscore_pj_amp_weight
@@ -591,6 +709,13 @@ class CfgWeapons
 				"_Switch"
 			};
 		};
+		class XtdGearInfo
+		{
+			model="sts23rd_opscore";
+			headset="amp";
+			variation="one";
+			patch="pj";
+		};
 	};
 	class sts23rd_opscore_pj_amp_battery_off: sts23rd_opscore_pj_amp_battery
 	{
@@ -650,6 +775,13 @@ class CfgWeapons
 				"_pvs31Batt",
 				"_Switch"
 			};
+		};
+		class XtdGearInfo
+		{
+			model="sts23rd_opscore";
+			headset="peltor";
+			variation="four";
+			patch="pj";
 		};
 	};
 	class sts23rd_opscore_pj_peltor_weight_off: sts23rd_opscore_pj_peltor_weight
@@ -711,6 +843,13 @@ class CfgWeapons
 				"_Switch"
 			};
 		};
+		class XtdGearInfo
+		{
+			model="sts23rd_opscore";
+			headset="peltor";
+			variation="three";
+			patch="pj";
+		};
 	};
 	class sts23rd_opscore_pj_peltor_battery_off: sts23rd_opscore_pj_peltor_battery
 	{
@@ -771,6 +910,13 @@ class CfgWeapons
 				"_ChargePro"
 			};
 		};
+		class XtdGearInfo
+		{
+			model="sts23rd_opscore";
+			headset="peltor";
+			variation="one";
+			patch="pj";
+		};
 	};
 	class sts23rd_opscore_pj_arc_battery_off: sts23rd_opscore_pj_arc_battery
 	{
@@ -827,6 +973,13 @@ class CfgWeapons
 				"_HelmetCam",
 				"_pvs31Batt"
 			};
+		};
+		class XtdGearInfo
+		{
+			model="sts23rd_opscore";
+			headset="peltor";
+			variation="two";
+			patch="pj";
 		};
 	};
 	class sts23rd_opscore_pj_arc_weight_off: sts23rd_opscore_pj_arc_weight

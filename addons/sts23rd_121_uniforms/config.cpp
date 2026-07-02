@@ -14,6 +14,110 @@ class CfgPatches
 		weapons[]={};
 	};
 };
+
+class XtdGearModels {
+
+	class CfgWeapons {
+
+		class sts23rd_g3 {
+			label="23rd STS Uniforms";
+			author="Sergeant";
+			options[]= {
+				"camo",
+				"sleeves",
+				"patch"
+			};
+			class camo {
+				label="Camo";
+				changeingame=0;
+				values[]= {
+					"mc",
+					"rgr"
+				};
+				class mc {
+					label="MultiCam";
+				};
+				class rgr {
+					label="Ranger Green";
+				};
+			};
+			class sleeves {
+				label="Sleeves";
+				changeingame=1;
+				values[]= {
+					"up",
+					"down"
+				};
+				class up {
+					label="Up";
+				};
+				class down {
+					label="Down";
+				};
+			};
+			class patch {
+				label="Patch";
+				changeingame=0;
+				values[]= {
+					"none",
+					"eod",
+					"jtac",
+					"med"
+				};
+				class none {
+					label="None";
+				};
+				class eod {
+					label="EOD";
+				};
+				class jtac {
+					label="JTAC";
+				};
+				class med {
+					label="Medic";
+				};
+			};
+		};
+		class sts23rd_pcu {
+			label="23rd STS PCU";
+			author="Sergeant";
+			options[]= {
+				"camo"
+			};
+			class camo {
+				label="Shirt Camo";
+				changeingame=0;
+				values[]= {
+					"blk",
+					"cb",
+					"dcamo",
+					"khk",
+					"m81",
+					"rgr"
+				};
+				class blk {
+					label="Black";
+				};
+				class cb {
+					label="Coyote Brown";
+				};
+				class dcamo {
+					label="D-Night Camo";
+				};
+				class khk {
+					label="Khaki";
+				};
+				class m81 {
+					label="M81 Woodland";
+				};
+				class rgr {
+					label="Ranger Green";
+				};
+			}
+		};
+	};
+};
+
 class CfgVehicles
 {
 	class B_Soldier_base_F;
@@ -386,6 +490,13 @@ class CfgWeapons
 		{
 			uniformClass="sts23rd_121_uniforms_g3_sleeve_mc";
 		};
+		class XtdGearInfo
+		{
+			model="sts23rd_g3";
+			Camo="mc";
+			Sleeves="down";
+			Patch="none";
+		};
 	};
 	class sts23rd_121_uniforms_u_g3_rolled_mc_rolled: sts23rd_121_uniforms_u_g3_rolled
 	{
@@ -394,6 +505,13 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass="sts23rd_121_uniforms_g3_rolled_mc";
+		};
+		class XtdGearInfo
+		{
+			model="sts23rd_g3";
+			Camo="mc";
+			Sleeves="up";
+			Patch="none";
 		};
 	};
 	class sts23rd_121_uniforms_u_g3_rolled_mc_jtac: sts23rd_121_uniforms_u_g3_rolled
@@ -404,6 +522,13 @@ class CfgWeapons
 		{
 			uniformClass="sts23rd_121_uniforms_g3_rolled_mc_jtac";
 		};
+		class XtdGearInfo
+		{
+			model="sts23rd_g3";
+			Camo="mc";
+			Sleeves="up";
+			Patch="jtac";
+		};
 	};
 	class sts23rd_121_uniforms_u_g3_rolled_mc_med: sts23rd_121_uniforms_u_g3_rolled
 	{
@@ -412,6 +537,13 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass="sts23rd_121_uniforms_g3_rolled_mc_med";
+		};
+		class XtdGearInfo
+		{
+			model="sts23rd_g3";
+			Camo="mc";
+			Sleeves="up";
+			Patch="med";
 		};
 	};
 	class sts23rd_121_uniforms_u_g3_rolled_mc_eod: sts23rd_121_uniforms_u_g3_rolled
@@ -422,6 +554,13 @@ class CfgWeapons
 		{
 			uniformClass="sts23rd_121_uniforms_g3_rolled_mc_eod";
 		};
+		class XtdGearInfo
+		{
+			model="sts23rd_g3";
+			Camo="mc";
+			Sleeves="up";
+			Patch="eod";
+		};
 	};
 	class sts23rd_121_uniforms_u_g3_sleeve_rgr: sts23rd_121_uniforms_u_g3_sleeve
 	{
@@ -430,6 +569,13 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass="sts23rd_121_uniforms_g3_sleeve_rgr";
+		};
+		class XtdGearInfo
+		{
+			model="sts23rd_g3";
+			Camo="rgr";
+			Sleeves="down";
+			Patch="none";
 		};
 	};
 	class sts23rd_121_uniforms_u_g3_rolled_rgr_rolled: sts23rd_121_uniforms_u_g3_rolled
@@ -440,6 +586,13 @@ class CfgWeapons
 		{
 			uniformClass="sts23rd_121_uniforms_g3_rolled_rgr";
 		};
+		class XtdGearInfo
+		{
+			model="sts23rd_g3";
+			Camo="rgr";
+			Sleeves="up";
+			Patch="none";
+		};
 	};
 	class sts23rd_121_uniforms_u_g3_rolled_rgr_jtac: sts23rd_121_uniforms_u_g3_rolled
 	{
@@ -448,6 +601,13 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass="sts23rd_121_uniforms_g3_rolled_rgr_jtac";
+		};
+		class XtdGearInfo
+		{
+			model="sts23rd_g3";
+			Camo="rgr";
+			Sleeves="up";
+			Patch="jtac";
 		};
 	};
 	class sts23rd_121_uniforms_u_g3_rolled_rgr_med: sts23rd_121_uniforms_u_g3_rolled
@@ -458,6 +618,13 @@ class CfgWeapons
 		{
 			uniformClass="sts23rd_121_uniforms_g3_rolled_rgr_med";
 		};
+		class XtdGearInfo
+		{
+			model="sts23rd_g3";
+			Camo="rgr";
+			Sleeves="up";
+			Patch="med";
+		};
 	};
 	class sts23rd_121_uniforms_u_g3_rolled_rgr_eod: sts23rd_121_uniforms_u_g3_rolled
 	{
@@ -466,6 +633,13 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass="sts23rd_121_uniforms_g3_rolled_rgr_eod";
+		};
+		class XtdGearInfo
+		{
+			model="sts23rd_g3";
+			Camo="rgr";
+			Sleeves="up";
+			Patch="eod";
 		};
 	};
 	class sts23rd_121_uniforms_u_pcu_base: sts23rd_121_uniforms_uniform_base
@@ -484,6 +658,11 @@ class CfgWeapons
 		{
 			uniformClass="sts23rd_121_uniforms_pcu_blk";
 		};
+		class XtdGearInfo
+		{
+			model="sts23rd_pcu";
+			Camo="blk";
+		};
 	};
 	class sts23rd_121_uniforms_u_pcu_cb: sts23rd_121_uniforms_u_pcu_base
 	{
@@ -492,6 +671,11 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass="sts23rd_121_uniforms_pcu_cb";
+		};
+		class XtdGearInfo
+		{
+			model="sts23rd_pcu";
+			Camo="cb";
 		};
 	};
 	class sts23rd_121_uniforms_u_pcu_khk: sts23rd_121_uniforms_u_pcu_base
@@ -502,6 +686,11 @@ class CfgWeapons
 		{
 			uniformClass="sts23rd_121_uniforms_pcu_khk";
 		};
+		class XtdGearInfo
+		{
+			model="sts23rd_pcu";
+			Camo="khk";
+		};
 	};
 	class sts23rd_121_uniforms_u_pcu_rg: sts23rd_121_uniforms_u_pcu_base
 	{
@@ -510,6 +699,11 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass="sts23rd_121_uniforms_pcu_rg";
+		};
+		class XtdGearInfo
+		{
+			model="sts23rd_pcu";
+			Camo="rgr";
 		};
 	};
 	class sts23rd_121_uniforms_u_pcu_dnc: sts23rd_121_uniforms_u_pcu_base
@@ -520,6 +714,11 @@ class CfgWeapons
 		{
 			uniformClass="sts23rd_121_uniforms_pcu_dnc";
 		};
+		class XtdGearInfo
+		{
+			model="sts23rd_pcu";
+			Camo="dcamo";
+		};
 	};
 	class sts23rd_121_uniforms_u_pcu_m81: sts23rd_121_uniforms_u_pcu_base
 	{
@@ -528,6 +727,11 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass="sts23rd_121_uniforms_pcu_m81";
+		};
+		class XtdGearInfo
+		{
+			model="sts23rd_pcu";
+			Camo="m81";
 		};
 	};
 	class sts23rd_121_uniforms_u_rugby_base: sts23rd_121_uniforms_uniform_base

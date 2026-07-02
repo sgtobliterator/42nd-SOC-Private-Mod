@@ -6007,7 +6007,7 @@ class cfgWeapons
 			uniformModel="-";
 			uniformClass="121_soar_uniform1";
 			uniformType="Neopren";
-			containerClass="Supply50";
+			containerClass="Supply100";
 			mass=1;
 			allowedSlots[]={"701","801","901"};
 			armor=0;
@@ -6029,7 +6029,7 @@ class cfgWeapons
 			uniformModel="-";
 			uniformClass="121_soar_uniform2";
 			uniformType="Neopren";
-			containerClass="Supply50";
+			containerClass="Supply100";
 			mass=1;
 			allowedSlots[]={"701","801","901"};
 			armor=0;
@@ -6051,7 +6051,7 @@ class cfgWeapons
 			uniformModel="-";
 			uniformClass="121_soar_uniform3";
 			uniformType="Neopren";
-			containerClass="Supply50";
+			containerClass="Supply100";
 			mass=1;
 			allowedSlots[]={"701","801","901"};
 			armor=0;
@@ -6073,7 +6073,7 @@ class cfgWeapons
 			uniformModel="-";
 			uniformClass="121_soar_uniform4";
 			uniformType="Neopren";
-			containerClass="Supply50";
+			containerClass="Supply100";
 			mass=1;
 			allowedSlots[]={"701","801","901"};
 			armor=0;
@@ -6095,7 +6095,7 @@ class cfgWeapons
 			uniformModel="-";
 			uniformClass="121_soar_uniform1_pcu";
 			uniformType="Neopren";
-			containerClass="Supply50";
+			containerClass="Supply100";
 			mass=1;
 			allowedSlots[]={"701","801","901"};
 			armor=0;
@@ -6117,7 +6117,7 @@ class cfgWeapons
 			uniformModel="-";
 			uniformClass="121_soar_uniform2_pcu";
 			uniformType="Neopren";
-			containerClass="Supply50";
+			containerClass="Supply100";
 			mass=1;
 			allowedSlots[]={"701","801","901"};
 			armor=0;
@@ -6139,7 +6139,7 @@ class cfgWeapons
 			uniformModel="-";
 			uniformClass="121_soar_uniform3_pcu";
 			uniformType="Neopren";
-			containerClass="Supply50";
+			containerClass="Supply100";
 			mass=1;
 			allowedSlots[]={"701","801","901"};
 			armor=0;
@@ -6161,7 +6161,7 @@ class cfgWeapons
 			uniformModel="-";
 			uniformClass="121_soar_uniform4_pcu";
 			uniformType="Neopren";
-			containerClass="Supply50";
+			containerClass="Supply100";
 			mass=1;
 			allowedSlots[]={"701","801","901"};
 			armor=0;

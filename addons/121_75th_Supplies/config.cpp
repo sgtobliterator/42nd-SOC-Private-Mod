@@ -30,7 +30,7 @@ class CfgVehicles
 		scope=2;
 		scopecurator=2;
 		vehicleClass="Ammo";
-		displayName="[75th Ranger] Basic Supplies";
+		displayName="[42nd SOC] Basic Supplies";
 		model="121_75th_supplies\Pelican_Tan_1.p3d";
 		icon="iconCrateWpns";
 		transportMaxWeapons=25;

@@ -506,7 +506,7 @@ class CfgWeapons
 	};
 	class Louetta_sidemk12_LASER_2: Louetta_ANPEQ15_TAN
 	{
-		scope = 2;
+		scope = 1;
 		displayName = "LA-5";
 		model = "gatekeep_mk12\model\side\side_2.p3d";
 		author = "Louetta";
@@ -534,7 +534,7 @@ class CfgWeapons
 	};
 	class Louetta_sidemk12_LASER_2_lopez_woodland: Louetta_ANPEQ15_TAN
 	{
-		scope = 2;
+		scope = 1;
 		displayName = "LA-5 Woodland";
 		model = "gatekeep_mk12\model\side\side_2_lopez_woodland.p3d";
 		author = "Louetta";

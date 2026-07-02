@@ -11,10 +11,46 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"A3_Characters_F"
+			"A3_Characters_F",
+			"SOAR_Packs"
 		};
 	};
 };
+
+//Dependent on SOAR Packs purely for the ACE Arsenal Extension Compat. Feel free to modify
+
+class XtdGearModels {
+
+	class CfgVehicles {
+
+		class SOAR_radio_packs {
+
+			class variations {
+				label="Variations";
+				changeingame=0;
+				values[] += {
+					"117G",
+					"117G_slingshot",
+					"GK_Y19_Panel_1",
+					"GK_Y26_Panel_1"
+				};
+				class 117G {
+					label="117G";
+				};
+				class 117G_slingshot {
+					label="Slingshot";
+				};
+				class GK_Y19_Panel_1 {
+					label="Y19 Panel";
+				};
+				class GK_Y26_Panel_1 {
+					label="Y26 Panel";
+				};
+			};
+		};
+	};
+};
+
 class cfgWeapons
 {
 	class Vest_Camo_Base;
@@ -439,6 +475,11 @@ class CfgVehicles
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
 		tf_subtype="digital_lr";
+		class XtdGearInfo
+		{
+			model="SOAR_radio_packs";
+			variations="117G";
+		};
 	};
 	class GK_117G_slingshot: GK_Backpack_Base
 	{
@@ -456,6 +497,11 @@ class CfgVehicles
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
 		tf_subtype="digital_lr";
+		class XtdGearInfo
+		{
+			model="SOAR_radio_packs";
+			variations="117G_slingshot";
+		};
 	};
 	class GK_Y19_Panel_1: GK_Backpack_Base
 	{
@@ -473,6 +519,11 @@ class CfgVehicles
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
 		tf_subtype="digital_lr";
+		class XtdGearInfo
+		{
+			model="SOAR_radio_packs";
+			variations="GK_Y19_Panel_1";
+		};
 	};
 	class GK_Y26_Panel_1: GK_Backpack_Base
 	{
@@ -484,6 +535,17 @@ class CfgVehicles
 		hiddenSelections[]={};
 		hiddenSelectionsTextures[]={};
 		DLC="SOCOM";
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
+		tf_hasLRradio=1;
+		tf_range=500000;
+		tf_encryptionCode="tf_west_radio_code";
+		tf_dialog="rt1523g_radio_dialog";
+		tf_subtype="digital_lr";
+		class XtdGearInfo
+		{
+			model="SOAR_radio_packs";
+			variations="GK_Y26_Panel_1";
+		};
 	};
 };
 class cfgMods

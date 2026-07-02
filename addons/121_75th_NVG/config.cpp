@@ -15,7 +15,7 @@ class cfgWeapons
 	class ranger_nvg1: NVGoggles
 	{
 		scope=1;
-		displayName="[75th Ranger] AN/PVS-31 Night Vision Device 1 [On]";
+		displayName="[42nd SOC] AN/PVS-31 Night Vision Device 1 [On]";
 		picture="\121_75th_NVG\121_ranger_nvg_ca.paa";
 		model="121_75th_NVG\pvs31_down.p3d";
 		simulation="NVGoggles";
@@ -39,7 +39,7 @@ class cfgWeapons
 	class ranger_nvg2: NVGoggles
 	{
 		scope=2;
-		displayName="[75th Ranger] AN/PVS-31 Night Vision Device";
+		displayName="[42nd SOC] AN/PVS-31 Night Vision Device";
 		picture="\121_75th_NVG\121_ranger_nvg_ca.paa";
 		model="121_75th_NVG\pvs31_up_mount.p3d";
 		simulation="NVGoggles";
@@ -69,7 +69,7 @@ class cfgWeapons
 	class ranger_nvg2_1: NVGoggles
 	{
 		scope=2;
-		displayName="[75th Ranger] AN/PVS-31 Night Vision Device";
+		displayName="[42nd SOC] AN/PVS-31 Night Vision Device";
 		picture="\121_75th_NVG\121_ranger_nvg_ca.paa";
 		model="121_75th_NVG\pvs31_up_mount2.p3d";
 		simulation="NVGoggles";
@@ -99,7 +99,7 @@ class cfgWeapons
 	class ranger_nvg3: NVGoggles
 	{
 		scope=1;
-		displayName="[75th Ranger] AN/PVS-31 Night Vision Device 2 [On]";
+		displayName="[42nd SOC] AN/PVS-31 Night Vision Device 2 [On]";
 		picture="\121_75th_NVG\121_ranger_nvg_ca.paa";
 		model="121_75th_NVG\pvs31_up_high.p3d";
 		simulation="NVGoggles";
@@ -123,7 +123,7 @@ class cfgWeapons
 	class ranger_nvg4: NVGoggles
 	{
 		scope=1;
-		displayName="[75th Ranger] AN/PVS-31 Night Vision Device 3 [On]";
+		displayName="[42nd SOC] AN/PVS-31 Night Vision Device 3 [On]";
 		picture="\121_75th_NVG\121_ranger_nvg_ca.paa";
 		model="121_75th_NVG\pvs31_up_normal.p3d";
 		simulation="NVGoggles";

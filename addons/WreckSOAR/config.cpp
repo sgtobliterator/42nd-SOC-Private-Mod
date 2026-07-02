@@ -45,7 +45,7 @@ class cfgWeapons
 	{
 		author="Wrecker";
 		scope=2;
-		displayName="[2-75th] SOAR G3";
+		displayName="[42nd SOC] SOAR G3";
 		picture="\WreckSOAR\textures\3RB.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem

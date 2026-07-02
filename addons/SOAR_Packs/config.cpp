@@ -27,7 +27,7 @@ class XtdGearModels {
 			label="Radio Packs";
 			author="Sergeant";
 			options[]= {
-				"variations";
+				"variations"
 			};
 			class variations {
 				label="Variations";
@@ -41,10 +41,10 @@ class XtdGearModels {
 					"117_JTAC"
 				};
 				class 117_Backpack {
-					label="Backpack";
+					label="117";
 				};
 				class 117_Backpack2 {
-					label="Backpack 2";
+					label="117 2";
 				};
 				class 117_Flatback {
 					label="Flatback";
