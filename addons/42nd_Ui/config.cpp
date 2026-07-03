@@ -1,4 +1,3 @@
-#include "BIS_AddonInfo.hpp"
 class CfgPatches
 {
 	class 42nd_SOC_UI
@@ -1188,7 +1187,7 @@ class RscDisplayMain: RscStandardDisplay
 	{
 		class Logo: RscPictureKeepAspect
 		{
-			text="\x\42nd_SOC_PrivateMod\addons\42nd_Ui\Images\FIXED_IT_DONT_WAKE_ME_UP_AGAIN_LOL.paa";
+			text="x\42nd_SOC_PrivateMod\addons\42nd_Ui\Images\FIXED_IT_DONT_WAKE_ME_UP_AGAIN_LOL.paa";
 			tooltip="";
 			x="0.4425 -  5 *  (pixelW * pixelGrid * 2)";
 			y="safezoneY + (3 - 0.5 *  5) *  (pixelH * pixelGrid * 2)";
@@ -1202,14 +1201,14 @@ class RscDisplayMain: RscStandardDisplay
 		class LogoApex: Logo
 		{
 			show=0;
-			text="\x\42nd_SOC_PrivateMod\addons\42nd_Ui\Images\FIXED_IT_DONT_WAKE_ME_UP_AGAIN_LOL.paa";
+			text="x\42nd_SOC_PrivateMod\addons\42nd_Ui\Images\FIXED_IT_DONT_WAKE_ME_UP_AGAIN_LOL.paa";
 			onLoad="";
 		};
 	};
 };
 class RscBackgroundLogo: RscPictureKeepAspect
 {
-	text="\x\42nd_SOC_PrivateMod\addons\42nd_Ui\Images\FIXED_IT_DONT_WAKE_ME_UP_AGAIN_LOL.paa";
+	text="x\42nd_SOC_PrivateMod\addons\42nd_Ui\Images\FIXED_IT_DONT_WAKE_ME_UP_AGAIN_LOL.paa";
 	x="0.33375 * safezoneW";
 	y="0.29 * safezoneH";
 	w="0.3325 * safezoneW";
@@ -1225,7 +1224,7 @@ class RscDisplayStart: RscStandardDisplay
 			{
 				class Logo: RscPictureKeepAspect
 				{
-					text="\x\42nd_SOC_PrivateMod\addons\42nd_Ui\Images\FIXED_IT_DONT_WAKE_ME_UP_AGAIN_LOL.paa";
+					text="x\42nd_SOC_PrivateMod\addons\42nd_Ui\Images\FIXED_IT_DONT_WAKE_ME_UP_AGAIN_LOL.paa";
 					x="0.33375 * safezoneW";
 					y="0.29 * safezoneH";
 					w="0.3325 * safezoneW";
@@ -1246,7 +1245,7 @@ class RscDisplayNotFreeze: RscStandardDisplay
 			{
 				class Logo: RscPictureKeepAspect
 				{
-					text="\x\42nd_SOC_PrivateMod\addons\42nd_Ui\Images\FIXED_IT_DONT_WAKE_ME_UP_AGAIN_LOL.paa";
+					text="x\42nd_SOC_PrivateMod\addons\42nd_Ui\Images\FIXED_IT_DONT_WAKE_ME_UP_AGAIN_LOL.paa";
 					x="0.33375 * safezoneW";
 					y="0.29 * safezoneH";
 					w="0.3325 * safezoneW";
@@ -1267,7 +1266,7 @@ class RscDisplayLoadMission: RscStandardDisplay
 			{
 				class Logo: RscPictureKeepAspect
 				{
-					text="\x\42nd_SOC_PrivateMod\addons\42nd_Ui\Images\FIXED_IT_DONT_WAKE_ME_UP_AGAIN_LOL.paa";
+					text="x\42nd_SOC_PrivateMod\addons\42nd_Ui\Images\FIXED_IT_DONT_WAKE_ME_UP_AGAIN_LOL.paa";
 					x="0.33375 * safezoneW";
 					y="0.29 * safezoneH";
 					w="0.3325 * safezoneW";
@@ -1674,7 +1673,7 @@ class RscTitles
 	{
 		class Picture: RscPictureKeepAspect
 		{
-			text="\x\42nd_SOC_PrivateMod\addons\42nd_Ui\Images\FIXED_IT_DONT_WAKE_ME_UP_AGAIN_LOL.paa";
+			text="x\42nd_SOC_PrivateMod\addons\42nd_Ui\Images\FIXED_IT_DONT_WAKE_ME_UP_AGAIN_LOL.paa";
 			x="0.33375 * safezoneW";
 			y="0.29 * safezoneH";
 			w="0.3325 * safezoneW";

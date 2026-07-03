@@ -14,7 +14,7 @@ class CfgVehicles
 
         class EventHandlers
         {
-            init = "(_this select 0) setFlagTexture '\x\BFSQN_PrivateMod\addons\55th_Icons\Images\55th_SOR_flag.paa';";
+            init = "(_this select 0) setFlagTexture 'x\BFSQN_PrivateMod\addons\55th_Icons\images\55th_sor_flag.paa';";
         };
     };
     class SOC_42nd_Flagpole : FlagCarrier
@@ -29,7 +29,7 @@ class CfgVehicles
 
         class EventHandlers
         {
-            init = "(_this select 0) setFlagTexture '\x\BFSQN_PrivateMod\addons\55th_Icons\Images\42nd_Flag.paa';";
+            init = "(_this select 0) setFlagTexture 'x\BFSQN_PrivateMod\addons\55th_Icons\images\42nd_flag.paa';";
         };
     };
 };
