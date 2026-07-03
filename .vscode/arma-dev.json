@@ -143,16 +143,14 @@
 		"addons/viking_avs",
 		"addons/viking_backpack",
 		"addons/viking_vest",
-		"addons/vmnd",
-		"addons/vmnd_nvg",
-		"addons/vtn_core_ui",
 		"addons/worm_izlid",
 		"addons/Sherrif_Vics",
 		"addons/nsr",
 		"addons/seven",
 		"addons/RH_acc",
 		"addons/RH_acc_cfg",
-		"addons/JAS_GPNVG18"
+		"addons/JAS_GPNVG18",
+		"addons/fsp"
 	],
 	"clientMods": [],
 	"ftpConnection": {}

@@ -17,7 +17,7 @@ class cfgVehicles
 		author="Vielmond";
 		scope=2;
 		model="\asip\model\asip_satcom.p3d";
-		displayName="[VMND] ASIP Satcom + Radio [TFAR] [MC]";
+		displayName="[42nd SOC] ASIP Satcom + Radio [TFAR] [MC]";
 		hiddenSelections[]=
 		{
 			"Camo1"
@@ -30,7 +30,7 @@ class cfgVehicles
 		mass=20;
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
 		tf_hasLRradio=1;
-		tf_range=5000000;
+		tf_range=500000;
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
 		tf_subtype="digital_lr";
@@ -40,7 +40,7 @@ class cfgVehicles
 		author="Vielmond";
 		scope=2;
 		model="\asip\model\asip_satcom.p3d";
-		displayName="[VMND] ASIP Satcom + Radio [TFAR] [CB]";
+		displayName="[42nd SOC] ASIP Satcom + Radio [TFAR] [CB]";
 		hiddenSelections[]=
 		{
 			"Camo1"
@@ -53,7 +53,7 @@ class cfgVehicles
 		mass=20;
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
 		tf_hasLRradio=1;
-		tf_range=5000000;
+		tf_range=500000;
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
 		tf_subtype="digital_lr";
@@ -63,7 +63,7 @@ class cfgVehicles
 		author="Vielmond";
 		scope=2;
 		model="\asip\model\asip_satcom.p3d";
-		displayName="[VMND] ASIP Satcom + Radio [TFAR] [LV]";
+		displayName="[42nd SOC] ASIP Satcom + Radio [TFAR] [LV]";
 		hiddenSelections[]=
 		{
 			"Camo1"
@@ -76,7 +76,7 @@ class cfgVehicles
 		mass=20;
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
 		tf_hasLRradio=1;
-		tf_range=5000000;
+		tf_range=500000;
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
 		tf_subtype="digital_lr";
@@ -86,7 +86,7 @@ class cfgVehicles
 		author="Vielmond";
 		scope=2;
 		model="\asip\model\asip_s.p3d";
-		displayName="[VMND] ASIP Radio [TFAR] [MC]";
+		displayName="[42nd SOC] ASIP Radio [TFAR] [MC]";
 		hiddenSelections[]=
 		{
 			"Camo1"
@@ -99,7 +99,7 @@ class cfgVehicles
 		mass=20;
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
 		tf_hasLRradio=1;
-		tf_range=5000000;
+		tf_range=500000;
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
 		tf_subtype="digital_lr";
@@ -109,7 +109,7 @@ class cfgVehicles
 		author="Vielmond";
 		scope=2;
 		model="\asip\model\asip_s.p3d";
-		displayName="[VMND] ASIP Radio [TFAR] [CB]";
+		displayName="[42nd SOC] ASIP Radio [TFAR] [CB]";
 		hiddenSelections[]=
 		{
 			"Camo1"
@@ -122,7 +122,7 @@ class cfgVehicles
 		mass=20;
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
 		tf_hasLRradio=1;
-		tf_range=5000000;
+		tf_range=500000;
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
 		tf_subtype="digital_lr";
@@ -132,7 +132,7 @@ class cfgVehicles
 		author="Vielmond";
 		scope=2;
 		model="\asip\model\asip_s.p3d";
-		displayName="[VMND] ASIP Radio [TFAR] [LV]";
+		displayName="[42nd SOC] ASIP Radio [TFAR] [LV]";
 		hiddenSelections[]=
 		{
 			"Camo1"
@@ -145,7 +145,7 @@ class cfgVehicles
 		mass=20;
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
 		tf_hasLRradio=1;
-		tf_range=5000000;
+		tf_range=500000;
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
 		tf_subtype="digital_lr";
@@ -155,12 +155,12 @@ class cfgVehicles
 		author="Vielmond";
 		scope=2;
 		model="\asip\model\satcom_no_radio.p3d";
-		displayName="[VMND] SATCOM [TFAR] [TAN]";
+		displayName="[42nd SOC] SATCOM [TFAR] [TAN]";
 		maximumLoad=300;
 		mass=20;
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
 		tf_hasLRradio=1;
-		tf_range=5000000;
+		tf_range=500000;
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
 		tf_subtype="digital_lr";
